@@ -1,0 +1,34 @@
+.DS_Store
+
+# Local tool/runtime state
+.gstack/
+.superpowers/
+.claude/
+.codex/
+.cache/
+tmp/
+temp/
+
+# yt-dlp metadata dumps are huge and include expiring playback URLs.
+video-research/comments/*.info.json
+
+# Secrets and local environment
+.env
+.env.*
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Python local artifacts
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+
+# OS/editor noise
+.idea/
+.vscode/
+*.swp
+*.swo

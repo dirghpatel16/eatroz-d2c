@@ -1,0 +1,2803 @@
+Chad, you're interesting because you are
+somebody that's coming from the
+investment world into the operator
+world.
+>> Thanks for having me on the pod. Grüns
+is killing it right now.
+>> The biggest unlock for me was like, why
+hasn't somebody put this in a gummy?
+>> Yeah, I remember the first time I got
+your product being like, this is
+different.
+>> And so I started thinking about like,
+how do I take comprehensive nutrition
+and put it in a format or some habit
+that people will look forward to and
+enjoy? A lot of people that want to
+start a business, they haven't seen what
+you've seen. So when I see how
+successful Grüns is, I'm just like,
+well, of course. Like this seems totally
+natural to me.
+>> Sometimes even the specific skill set is
+not as important as just like a
+willingness to try something.
+What's up, everybody? Welcome to the
+Operators podcast. This is going to be a
+great episode. You're in for a treat.
+You're getting to hear from Chad Janice,
+who is the founder and CEO of Grüns, a
+company that is absolutely blowing up.
+There's a lot of great nuggets in this
+episode. But before we get started, want
+to say thank you to our sponsors. Our
+presenting sponsor, Fulfill, North Beam,
+Saris, Rich Panel, and Postscript.
+They're the ones who make this pod
+possible. And without further ado, on to
+the show.
+Hey guys, this is an ad for Fulfill, one
+of the partners of the pod, and you're
+going to get to hear from one of the
+best operators, Chad Janice, talking
+about his experience implementing
+Fulfill with Grüns. So Chad, you
+mentioned like scaling operations has
+been a huge part of
+your success.
+How have you scaled? What partners,
+softwares have you used? Fulfill's a
+partner of the pod, I think that you
+use. Tell me a little bit about your
+experience scaling with them. Yeah, we
+It's probably about 6 months ago, 6 8
+months ago, we realized that we needed a
+ERP.
+Um you know, we built the business off
+of like Google Sheets and primarily like
+Google Sheets, and then we had some like
+internal engineered solutions that were
+helping us out.
+And we were deciding between NetSuite
+and Fulfill. And frankly, when I was an
+investor at Summit Partners, we had
+encouraged I don't think we were aware
+of Fulfill at the time. I mean, this is
+back in 2021, 2020.
+And so all of the brands that we ended
+up investing in, we would tell them
+like, hey, we're going to onboard to
+NetSuite. And it would take a year. We
+had a person at our investment firm
+whose job was ERP implementation. Like
+literally, who would spend a year with
+the brands helping them with ERP
+implementation. And it was a slog. And
+it was we'd always come to the end a
+year later after we invested in this
+business.
+And they'd pop up and be like, okay,
+it's mostly done correctly. Here are
+some things. But literally, all this guy
+did was helping brands with ERP
+implementation. And
+you know, we're growing so fast, that
+wasn't an option for us. Like I don't
+know we're doing that year. I can't I
+can't take a year to put in ERP into our
+our systems.
+And so we we were chatting with the
+Fulfill Fulfill team.
+We onboarded with them. I think it took
+less than 2 months. So speed was highly
+critical here.
+Our COO sat down with them. He spent
+most of the time onboarding and
+going through that process and felt
+really compelled with our ability to do
+it. And it was a precursor for us to be
+able to do some of our own fulfillment.
+So historically, we we've used 3PLs.
+We now do a lot of our fulfillment in
+house. So absolutely critical part of
+our system.
+As I mentioned in in the pod, I
+we also do production in house now, part
+of our manufacturing process. And so
+Fulfill is critical for all of that.
+You know, every system has like little
+things here and there, but the speed at
+which the Fulfill team, when we have an
+issue, pops in and solves it,
+I can guarantee you're not getting that
+from another solution. So they they've
+been great partners, critical to our
+growth, and and will continue to be
+critical to our growth into the future.
+Yeah, I think you nailed it. Great
+partners help you go fast, and they help
+you open up capabilities that make your
+business more valuable.
+Chad, we're pretty free-flowing here.
+There's a lot of room to breathe, and
+I guess I'll just kind of kick us off
+with the way that this interview started
+with Chad Janice today, and the way that
+it started, at least my introduction to
+it was we were talking in a text thread
+that several of us are in, and we were
+just basically marveling at how Grüns is
+just killing it right now. So I reached
+out to Chad, got to know him a little
+bit. Jason's got a relationship with
+Chad that goes way back to sounds like
+2020, which seems like a a lifetime ago.
+And
+Chad, I guess to kind of start things
+off, you're interesting because you are
+somebody that's coming from the
+investment world into the operator
+world. I don't feel like I've heard a
+lot of those stories. I guess Jason,
+that's kind of your story on a much
+lower
+Jason's the only other one.
+We've got both of them on on this
+podcast. But
+let's kind of maybe start there. I'd
+love to hear your story, share your
+background of how you you came to to
+Grüns.
+Yeah,
+thanks for having me on the pod. First
+of all,
+obviously a weekly listener.
+Gathered a lot of the last couple of
+years as as I've been building Grüns
+from you all and the insights that you
+share. I
+I've actually always been more of an
+entrepreneur, but in an effort to sort
+of leave optionality open in my career,
+I went down the path of investment
+banking and looked at consulting for a
+while and was an investor. Um
+Yeah, I I graduated back in 2017,
+went out to New York, did investment
+banking at a firm called Lazard. Um I
+hated it. Um I found I found it it's not
+from like the the amount of hours that
+you work. Like that was totally fine.
+Obviously, I work a lot of hours now.
+It was like the management style of not
+knowing where your work was going. This
+is more probably a problem at like the
+analyst level. You just don't know where
+your your work ends up, like the impact
+of that work. Um and so I ended up
+leaving it a year in to go start a
+business, ran that business for a year,
+sunsetted in 2019,
+joined Summit Partners, an investment
+firm.
+And spent all my time investing in in
+consumer. Um
+And spent I was there for 3 years, ended
+up investing in about 12 different
+direct-to-consumer primarily e-commerce
+brands. Some of those were on the fringe
+of launching into retail like Dr.
+Squatch. So I was there at the time when
+they were deciding between Target or
+Walmart as their launch partner.
+And having those discussions at the
+board level. And then in 2022, I left to
+go get my MBA at Stanford. And
+you know, I had this problem in my life
+of always committing to too much at
+once. I just there's I I can't say no,
+and so it's like I'm always doing too
+much. And I remember going to Stanford
+being like, look, I'm just going to like
+enjoy this this experience.
+Like be a student for once. I didn't
+have that experience in undergrad.
+And it was like even before getting to
+Stanford, I was in my dad's office
+um
+in um Utah. They moved to Utah back in
+2011. And I
+I'm sitting there drinking a greens
+powder.
+Day two of drinking this greens powder,
+just looking up at the corner of my
+office being like, there's no way I'm
+I'm keeping this habit past 30 days.
+It's gross, it's messy, there's like
+weird frothy sediment at the bottom. And
+um
+And so I started thinking about like,
+how can I take comprehensive nutrition,
+not greens. I think there's this
+terminology of greens
+that probably does a disservice to
+comprehensive nutrition.
+It's a lot more than greens. And how do
+I take comprehensive nutrition and put
+it in a format or some habit that people
+will look forward to and enjoy?
+And
+that's how I had the idea for Grüns. I
+ended up spending a year working on it.
+And
+at that point, I wasn't really looking
+to start something, but it felt so
+obvious to me and and a real opportunity
+that
+you know, this is back in 2022. So I
+don't think that greens were getting
+hated on the way that they maybe do
+today, the green powders. Maybe we're
+part of the the reason that people have
+come out and started talking more about
+it.
+But there's just this hunch that like
+everybody else is having an experience
+like me where it just wasn't as fun of
+an experience. It's hard to stick to.
+You get these ads that are like, it's
+delicious. I you know, I for the green
+powder, it's delicious, it's so easy.
+But then the actual lived experience
+wasn't that way for me. So I figured,
+you know, more people are probably
+experiencing that. So to come back to
+your question, I think
+you know, I did this stint as an
+investor, but I think even as an
+investor, I was pitching some of our
+portfolio companies like kind of wild
+entrepreneurial ideas.
+So it's always sort of been a need, but
+I I did have a stint where I I I think
+probably had really cool access to
+understanding like proprietary data,
+right? Like LTV to CAC, growth rates,
+board level decisions that these brands
+are making, literally 300 plus brands
+that I talked to during that period.
+Yeah, I think that's super interesting.
+Chad, I mean, you had
+you had the most incredible education in
+building consumer businesses, right? You
+you probably talked to hundreds of
+businesses and as an investor were
+involved in in sourcing
+you know, probably a couple of dozen
+investments.
+And it's incredible how much you see
+then. And then you went to business
+school, which is also really an amazing
+experience, which which I did as well.
+And then you were like you had the idea
+in a great space.
+And you managed to create a product that
+was a good product, right? Like we've
+all tried it.
+And like this is
+this is like a really like this is like
+checking all the boxes.
+It's not typical, right? Like that
+a lot of people that want to start a
+business,
+they didn't see they haven't seen what
+you've seen. So when I see how
+successful Grinds is and when I see
+everyone talking about the brand and and
+you, I'm just like, well, of course.
+Like this seems totally natural to me
+that that you
+like the harder you work the luckier you
+get. You work so hard, then you had an
+idea and work, you know, and it's
+amazing. So congratulations.
+One question I'd have Chad is how much
+do you think all of the proprietary data
+that you saw
+helped you to filter through these
+entrepreneurial ideas that you were
+seeing?
+Was it you started to kind of pattern
+identify the most successful companies
+you were looking at and that helped you
+to think about the type of company that
+you might want to build someday?
+Yeah, I
+there's this moment. It's probably like
+a month into working at Summit as an
+investor
+that consumer clicked for me.
+Like back in 2017, the group I was in at
+it in investment banking was
+industrials.
+Um so like all the boring like machinery
+type stuff.
+Um
+and we sat next to the consumer group
+and I
+I literally remember saying to my
+friends in the investment banking class
+like I do not understand how consumers
+buy, how they purchase. I was a
+self-proclaimed minimalist at the time.
+And then it wasn't until um
+like a month into Summit, you know, you
+don't you don't get like a an industry
+where you're investing in. Um I stumbled
+upon consumer. Nobody was really
+covering it at Summit. I and and the
+whole LTV to CAC
+equation clicked for me.
+Um and and I would even say like it's
+not just for consumables. Like you know,
+I hear
+a lot of people talk about LTV to CAC's
+not real. To me it's real. Like even if
+you get 90% of that LTV to CAC on day
+zero
+when someone orders, like great. It's
+still a real equation that results in a
+P&L EBITDA output um
+depending on how fast you're going. So
+I
+I would say that for me
+I
+I have a very vivid memory and I would
+hop on the phone and my primary
+objective when I was calling into I mean
+frankly like probably a lot of them
+100 million plus dollar brands that are
+in the space. I've chatted with the
+founders and CEOs of those companies.
+And I have a very vivid memory. So like
+I know their margin profiles.
+I know their LTV to CAC curves. Um
+I
+and and I think
+over time it became really clear to me
+um how that plays out, some of the
+mistakes people were making and my
+primary objective was just be friends
+with these people. Like it didn't really
+matter if I knew it was a great business
+if these people didn't like me. Um like
+you got to have them like you first for
+them to for it even to be a question if
+you know, they want to take your money
+and partner with you.
+Um
+and so
+I
+I would say to to answer your question
+I wasn't really looking for a business.
+Like I would I I definitely wasn't
+looking to start like in the consumer
+space. But it felt very like native to
+me um at that point having seen so much.
+And then I would say like
+being able to leverage all those
+experiences, all of those insights,
+the LTV to CAC curves, like all of that
+that's in my head and knowing what's
+good um you know, what's best in class
+uh has allowed us to scale really
+quickly because I I know contextually is
+this good?
+Okay, should we push on the gas a little
+bit more?
+Um and so I would say it's been really
+it's been really critical from a scaling
+standpoint. Maybe not from like a you
+know, I wasn't necessarily sitting over
+there saying like oh, it's got to be
+supplements, you know, maybe I should
+pick this category over here. I was just
+a guy who tried a green powder and
+thought it tasted disgusting and figured
+I could I could do something better.
+It's interesting because literally I was
+having a conversation about lifetime
+value to customer acquisition cost
+yesterday with the CEO of our Trevi
+brand. It's one of those things that uh
+good operators actually talk a lot
+about. I'm curious
+Matt, Jason, with the businesses you
+guys run
+how early did you start thinking about,
+hey, what what really are these numbers
+and how how is this going to impact the
+way that we think about how much we're
+willing to pay for people?
+I mean on on Peel the Case, it's it's
+like ridge it's zero.
+Like we eat what we kill on day one.
+It's like we got to go out and hunt
+thousands of customers every day cuz our
+repeat like the time frame in which
+somebody comes back and buys from us in
+that brand is like two years, three
+years.
+So
+we really try to ignore it
+uh even though it it like now we're
+seven years into the brand, it's
+actually super important, you know, cuz
+like the the brand value and the
+customers coming back matters quite a
+bit. It's a big chunk of the revenue
+that comes in every year and we're old
+enough now that we can actually count on
+it. You know, to what Chad is saying,
+like we can model out. Like we know
+every year now with a lot of confidence
+how many people are going to come back
+and buy from us in that company.
+In Lomi, it was day one. It was built on
+a device sale with a back-end filter
+subscription.
+And we kind of math like everything was
+just math'd out right away. We're like,
+all right, we know what we can buy a
+customer for. We have a sense for what
+they're going to stick around. Like we
+can see usage of device. Um so it's the
+whole business is modeled off of it. I
+don't it's not in a like not like what
+you would do Mike with Trevi or Chad
+with Grinds. Like it's not the same
+cuz we do have a large front-end
+purchase with that one.
+Um
+but I would say it's probably like in
+that kind of business where it's like
+high repeat rate or in our case
+subscription, dude, it's it's
+I don't know what you're doing if you're
+not doing that. Like I honestly like
+why are you here?
+LTV to CAC um is
+it's a metric that's been used in
+investing for decades and it I kind of
+come out of software investing
+um and then it it's been applied to
+subscription
+um mainly, right? Because so we don't
+think about it LTV to CAC. Like we're
+AOV to CAC, period. LTV is nice. We look
+at LTV because people care about that.
+But we we have to make like a real
+margin on on our very first customer.
+It started because no one would give
+Danny and Cole any money at the
+beginning.
+Um and then, you know, when I came on
+board, the reason why I joined frankly
+when the company was like
+Well, the reason why I got involved when
+the company was under 20 million in
+revenue because I just saw that every
+sale was
+profitable. Like
+pretty profitable. So that was that was
+exciting to me. But I think LTV to CAC
+is a lot harder to get right, you know,
+because you are you just there's there's
+more time involved and so there's a lot
+of things that can go wrong and I you
+know, I'm very interested in in what
+Chad is doing because I'm I also like I
+look at
+the powder companies, you know, there's
+a big one out there that's raised a ton
+of money that's done a lot and I I have
+to say like it's I've always felt that
+there was a lot of risk there
+because
+how much marketing you're underwriting,
+you know, how much you're willing to pay
+uh to acquire that customer.
+Man, if you're wrong, you're
+right?
+>> You're definitely wrong you're you're
+screwed if you go long on that payback.
+And I think Chad, that was actually one
+of the things that stood out to me. You
+and I had a a private conversation, but
+my probably number one takeaway from it
+is this is somebody who's really
+disciplined about the uh
+his customer acquisition costs. As a
+result of what he knows about customer
+values, he's really disciplined. And I
+think that makes sense. I mean maybe you
+could comment on this. My perception
+from the outside is that the investment
+community really soured on D2C type
+businesses
+in large part because they banked on
+these future LTVs that never showed up
+in a bunch of brands and that it it kind
+of became a little bit of an
+uninvestable space. There are obviously
+some real winners. You've you've
+actually like been involved with some of
+the really big winners that came out of
+that era, but there were a lot more
+stories of things that didn't work out.
+Uh so I I don't know. I think that might
+be something worth talking about is like
+um how how when you run your team, you
+obviously do need to really care about
+being disciplined about what you're
+paying to acquire. How do you prevent
+yourself from talking yourself into
+going an extra two, three, five months
+out to get payback to grow faster?
+I you're totally right. I think most of
+the D2C darlings that
+um
+have had trouble in recent years, but
+were doing well, putting them in
+quotation marks
+on video here
+uh during you know, the 2018 to 2021 era
+um they didn't have discipline around
+CAC.
+And so there is this like
+if you don't know what your LTV is, you
+shouldn't you shouldn't be like guessing
+what your CAC should be.
+So when I started the business
+our we have a CAC ceiling. You can ask
+anybody at Grinds. They won't tell you
+cuz we had a very like uh
+closed off, internally transparent,
+externally opaque culture. You can ask
+anybody at Grinds what our CAC ceiling
+is and they would know. CEO, CSO, yet
+CMO, everyone knows exactly what that
+that's that ceiling is for our CAC, the
+gospel around it.
+Um
+and
+that ceiling was very different when I
+first launched. I picked something very
+low.
+Um and then as month two came in, I was
+seeing the retention said, hey, let's
+bump it a little bit.
+As we launched Amazon and I needed to
+factor in a little bit of a runoff into
+Amazon from the D2C spend, bumped it a
+little bit.
+And then, I think it was in April of
+last year we set a CAC ceiling
+um based on at that point 7-8 months of
+data from our cohorts
+and didn't move it.
+Now,
+I run the business, have always run the
+business, and I would encourage
+everybody to run their business as a
+minimum three times LTV, fully burdened
+LTV, delivered to the door gross profit
+to CAC.
+Um
+that is a standard for investors that
+they love to see. I I would say
+strategics see that as best in class.
+And if you just play out what the like
+EBITDA margin output is of a three times
+LTV to CAC business, it's great. For
+anybody listening who's like just to
+make it really clear what we're saying,
+you're saying, "Hey, if you run your
+calculation and I guess start here using
+about lifetime value, you think about
+what period of time?"
+Three years. Yeah, not the heat death of
+the universe, right? Like we're talking
+like three years. So, in the the next
+three years, we think this customer will
+be worth, let's just say we think
+they're going to be worth $300. If that
+was our number, then you would say the
+kind of gospel best in class is that
+you're paying $100 or less to acquire
+that person.
+>> Correct. And and
+I would say to be clear on the 300,
+that's not revenue, that's delivered to
+the door when the when the product shows
+up on your doorstep, how much profit did
+you take out of that?
+>> post refunds. This is post And that's
+really like a huge huge point that I
+would like triple click on is that there
+are all these little ways that you have
+money go out the door that you it kind
+of erodes at your margins. And if you
+don't account for those, you can be
+really really wrong in your estimation
+of LTV. So, you have to kind of sit
+there and say like, "Okay, like you used
+the word fully burdened, but just again
+trying to make that as accessible to
+anybody listening to the podcast as
+possible. That's just saying you're
+you're scraping every part of your
+business and saying where are all the
+little ways that money goes out where
+the margins get kind of eroded. And
+anyway, so I think it's great points.
+You're saying you need to be at three or
+more of of that ratio. Yeah, and I and I
+think I you know, things will make it
+complicated as you launch Amazon, that
+makes it a little bit more complicated
+cuz you're probably not spending
+enough on Amazon like direct marketing.
+I
+And so, a lot of what's happening on
+Amazon is runoff from direct consumer
+spend. So, what you're what you're
+spending to drive
+demand on your D2C site. And then
+similar with retail, right? Like
+uh we have really good retail velocities
+without needing to like put a ton of
+retail marketing into it as we try to
+keep up inventory.
+And so, there's there's some excess
+capacity over there to spend, and the
+three times LTV to CAC equation gets a
+little bit um muddy.
+I think last month we made some real
+strides in how to actually look at LTV
+to CAC on a retail customer and on an
+Amazon customer and blend it so that the
+blended LTV to CAC across the business
+is at least three times.
+Um but it does get complicated as you
+start to scale out operations.
+Jason, do you guys Matt, do you guys I I
+guess Matt, you guys don't have physical
+retail. Jason, you've got you've got
+some, but we all have omni channel
+of some sort. How much do you try and
+track customers across different
+channels to try and understand what
+Okay, Sally comes in on the website, she
+buys this.
+How do I pull in what Sally's doing on
+Amazon or what she's doing in Costco? Or
+do you just not even try to do that? I
+mean, for Costco, it's super hard. Yeah,
+I mean, it's it's super it's opaque.
+>> That's our big channel, retail, but I
+don't know, Jason, if you guys have
+cracked that. We have we don't even try
+cuz that's
+like we get you get PDFs. We have some
+very rudimentary
+tracking um because we have a warranty
+on our pans um and through like post
+purchase survey data, etc., we can get
+like some directional information that
+is useful. I do I do want to go back to
+what Chad was saying about the the
+Amazon halo effect, right? You spend
+money on meta, and people are just going
+to go to Amazon, spend money on Google,
+people are just going to go to Amazon,
+like and so, how do you think about
+that, Chad? You Can you Can you expand
+on that just a little bit?
+Yeah, I mean, it
+I
+probably raised back in January of last
+year, 2024, when we launched Amazon, I
+think I raised our CAC ceiling by like
+10%. It was more of a a gut feel. There
+was
+cushion in there in terms of what like
+we were running above a three times LTV
+to CAC, so I felt like, "Hey, like let's
+let's just use this as a proxy for now."
+Um
+and then as we've launched retail,
+right? Like we launched Sprouts back in
+December of 2024,
+um Target in February of 2025, and
+Walmart in April.
+Um
+that's a lot of doors. Like we're in
+over 4,000 doors now. We're on end cap.
+And I think
+I you can look at you know, we're just
+now getting some of this like Spins data
+back. Spins is a platform that
+shows you retail data, so you can
+actually track the consumer's LTV
+on retail specifically. And I and I
+think for us it's a little bit different
+than maybe Matt or Jason here.
+And Mike may be it's a little bit
+different for you, but you probably have
+some repeat nature that Matt and Jason
+don't uh as much.
+I don't I don't necessarily care whether
+Mike bought on Amazon and then he bought
+on D2C and then he bought at Target.
+Um because if I take the aggregate view
+of what the the customer is doing on
+Amazon, that like messy noise will be in
+the LTV of the Amazon customer.
+Right? So, they may look like, "Oh, the
+Amazon customer is like worsening, but
+we're acquiring somebody over in D2C
+really well, better than usual." Well,
+that's really just Mike and all of the
+Mike look-alikes coming from Amazon to
+D2C and then over to to retail. And so,
+all of that's in the LTV
+LTV data. And so, it's up to you to look
+at that and say, "Okay, let's let's
+forget about all that noise. I don't
+necessarily care whether Mike's bought
+in three different channels. What I care
+about is, you know, our retail consumer
+is going to provide this blank LTV in a
+three-year period. Um
+I'm I'm I'm open to spending
+a a CAC that's a third of that."
+The reality is is you probably can't
+spend enough in retail
+to hit that
+that three times specific retail LTV to
+CAC. So, you might have a 12 times LTV
+to CAC in retail and make up for some of
+that with D2C spend. So, your D2C LTV to
+CAC may have been a sub three, but
+you're able to right, blend it in the
+business whole.
+>> what's awesome about retail. Retail,
+that ratio just blows out.
+You know, you just the numbers really
+work your way.
+Okay, it's no secret that margins are
+getting squeezed and profitability is a
+challenge for brands in 2025, not a
+secret. That is where North Beam's
+profitability benchmarks come into new
+feature, you could check it out. This is
+a tool from North Beam that tells you
+the exact targets that you need to hit
+to get to profit inside of North Beam.
+So, no more guessing, no more month-end
+financial surprises. Hitting these
+targets helps you ensure that your ad
+campaigns are actually driving the right
+behaviors to make your business
+profitable. That is wonderful. The
+brands that track this stuff probably
+already doing Google Sheets. I know I
+do. I'm going to be checking out this
+North Beam new feature. And North Beam
+is kind of is a big level up from this.
+And here's what sets kind of what I have
+seen, here's what sets profitability
+benchmarks apart. So, instantly you get
+to quantify your goals into clear
+benchmarks. Every ad gets measured
+against those targets right inside of
+North Beam. That's kind of cool,
+actually. And you see and you can kind
+of at a glance see which ads are doing
+well, which needs to go against
+profitability benchmarks, not just ROAS
+or whatever else you're using right now.
+You scale up the winners, you cut the
+losers, you know the drill. It is hard
+to argue that this is not great for
+brands. Profitability benchmarks from
+North Beam is like having a speedometer
+on all your channels, campaigns, ads.
+You can kind of see everything at a
+glance against profitability, not
+something else. So, stop leaving money
+on the table, fuel your creative
+performance, make every ad dollar count
+in every channel, hold them all to the
+same standard. If you want to reach out
+to North Beam, just let them know the
+operators sent you, and they will take
+good care of you.
+Ultimately, what's making your company
+just blow up and and so successful is
+that you've crushed it on product. Tell
+us about how you did product development
+because like you said, you really
+started with, "Hey, I think this green
+powder, you know, getting greens in in
+some kind of a supplement form makes
+sense, and I think there's a better way
+to do it, and you guys have obviously
+found a really effective way to do it."
+So, how did you How did you go about
+actually bringing the product to market?
+And then you've also done a lot of
+interesting things in subsequent product
+launches. We'd love to hear how you guys
+are approaching product dev.
+Yeah, the I
+it was actually harder than I thought
+getting this off the ground.
+Um
+when I when I had the idea, I started
+calling around to
+co-mans
+and packaging partners, and I would I
+would literally had probably like 50
+conversations that I would ask the first
+one, "Hey, if I was talking to gummy
+co-man co-manufacturer who produces the
+products,
+who are the best packaging partners?"
+And then I go talk to those people, and
+then I'd ask them who are the best gummy
+co-mans, and I I slowly whittled to who
+I thought um were actually the best. And
+what was crazy is like I would talk to
+these gummy co-mans, and every time
+they're like, "That's not going to work.
+It's going to taste disgusting. No way
+we're going to do that. You're just
+another like starry-eyed founder."
+Um
+it's not going to work. I found one
+finally who was willing to to give it a
+go, but they also said like there's
+there's no way this is going to taste
+good. And I said, "Look, just do it.
+Here's the formulation. Here's what I
+want in the product.
+Let's all taste it, and then we'll say
+whether it tastes bad or good. All
+right, like let's let's actually produce
+it and see.
+Um and the first iteration was pretty
+good. Now,
+um I spent a year from like August of
+2022 to August of 2023 when we launched
+going through dozens of iterations on
+this. And not just testing like
+formulation, the science of it, also
+testing like is should it be a gummy
+bear?
+Um or should it be a gumdrop?
+Uh how many gummies should be in a pack?
+Um what's the color? What's the smell?
+What's the taste? Um all of those things
+were tested, and they were blind blind
+sample surveys I was doing. So, I I it
+was actually at Stanford campus. I, you
+know, probably half of my class were
+part of the guinea pigs on this, and I
+thought it was a good place to do it
+because you don't, you know, Stanford's
+interesting cuz you have a lot of people
+from different backgrounds, a lot of
+ethnicities, a lot of nationalities, and
+so you get a lot of different opinions.
+It's sort of like a weird place where,
+you know, if I went to the D2C
+community, we might have a bunch of
+chats um trying this product, and we can
+kind of get in our own bubble of like
+what a good product looks like. And I
+got some good feedback from that. Um
+and so that, you know, spent that year
+formulating. It became really clear what
+the product should look like. So, the
+product you see today is it is highly
+intentional.
+Um
+but but I think the biggest unlock for
+me, you know, a year back in August of
+2022 when I had the idea was like, why
+isn't somebody put this in a gummy? And
+I think
+the world that gummy represented back
+then is a 60-count bottle,
+one to two gummy serving size. And so
+for me, the big unlock, you know, we all
+look at it today, and we're probably
+like, yeah, yeah, like it's a sachet,
+it's got to eat gummies in it, whatever.
+But like
+that's new. That's not like a that's not
+like a format that really existed at the
+time.
+>> remember the first time I got your
+product being like, this is different.
+Like I've never I've never seen these
+kind of micro packets of gummies before.
+And here's the crazy part. The
+infrastructure to do that didn't exist
+when I launched.
+>> Well, that maybe that's why maybe that's
+why I never seen it cuz it literally
+didn't even exist. It works for pills.
+It works for powders, but the machines
+gummies is a hard technology cuz it's a
+little sticky, and so it get it can get
+stuck in the machines. And so for the
+first like 8 months of this business,
+this is going to sound crazy, but this
+is what you do when you pave the path
+for a new a new format to exist in the
+world.
+Our our first co-man, we now have three.
+We're probably on boarding a fourth
+soon.
+Um that first co-man, they had 20 bodies
+with gloves standing around a table
+taking eight gummies, sticking them in
+and the sachets, and clamp sealing them.
+Super manual for the first 8 months
+before we got machinery. And it
+pioneered how you do this with the gummy
+format.
+Uh but it it was a slog for the first
+like 8 months of this business. It's
+like have any of you guys read Apple in
+China? If If you haven't, it's it's
+great. I I got put on to it. Um I'd
+recommend it to anybody listening to
+this podcast. But one of the things that
+they talk about there is the way I mean
+like Foxconn. And a lot of the reason
+why Foxconn becomes Foxconn is just
+their raw ambition and willingness to be
+like, we will try anything. And this
+it's interesting when people go and like
+think about their supply chain and who
+do I want in the co-man or who do I want
+in the manufacturer.
+Man, just like ambition and willingness
+to try things is so valuable. Like where
+it's just like, yeah, eight gummies in a
+package, never seen that before. Let's
+figure it out. Most co-mans, like you
+said, would just be like, no, that's not
+what we do. No, not going to do that.
+And some of our best product ideas have
+been
+like
+us going to our our one of our
+manufacturers and saying, hey, we want
+to do this thing that we've never seen
+before. You want to help us try? And
+they're like, they get excited about it.
+They're like, yeah, let's try it. I
+don't know if we can make it work, but
+like let's try it. So, I'd recommend
+that to everybody. It runs counter to
+what manufacturers are though, Mike.
+Well, yeah, exactly. Like their entire
+business is replication, not innovation.
+So, to find a manufacturer in any
+category that's willing to try
+something.
+I mean, we saw this with Lomi. We had to
+build our own manufacturer. Like we had
+to we went to a factory. We said, look,
+we know you don't want to do this, so
+we'll do it. Like we'll pay for it.
+We'll design the line. We'll figure out
+how to assemble the whole damn thing. We
+threw our engineers at their factory.
+And all we said was like, you just need
+to provide the bodies, right, and the
+building and the power and everything
+else that you have.
+>> And that the Apple in China book, like
+that's kind of one of the stories is
+that the Foxconn and then more generally
+kind of China and and Taiwan realized
+like this is a great way to get our
+people trained if we can convince these
+American companies we're willing to try
+all your crazy stuff if you'll send some
+of the intellectual capital. And so
+I also think like on the manufacturing
+side, it's a great customer acquisition.
+It's it's just got to be like an
+absolute uh beatdown to try and compete
+on margins in a commoditized category
+with a whole bunch of other people. Do
+Do you know I don't know if I've told
+you guys this? Chad, you might hear this
+for the this is the first time.
+Our initial factory for Lomi was a toy
+factory cuz they're the only ones psycho
+enough in China to make anything new.
+Like the entire toy industry is like
+you have an idea? 6 months later, we're
+going to put it on a shelf in Walmart.
+Every single appliance company or like
+device company we went to was like, not
+a chance. Like we do not know how to
+make those. That's not a thing. It's not
+it's a new category. Chad, similar to
+what you were doing with like this pack
+for this type of thing. Everybody kicked
+us out. They laughed us out of the room.
+The toy guys were like, sure, you know,
+somebody showed up with one day with a
+drone, we'd do that, too. But I mean it
+kind of gets to that point, Matt, that
+like sometimes even the specific skill
+set is not as important as just like a
+willingness to try something. Like you
+were able to build a pretty
+revolutionary product with people that
+on paper don't have the skill set to
+make that product, but they had the
+willingness to try to do something. So,
+like as you're I I think one of the
+interesting questions like when you're
+whatever like hyper scaling, whatever
+word we'd use for the way that Grüns has
+grown because it's I, you know, like I
+don't I like you said, you're kind of
+externally opaque. So, I won't ask you
+to like share any numbers other than
+they're really crazy, they're really
+big, really fast. You did take a round
+publicly that's a big round with a big
+valuation attached. There's a very small
+number of companies for sure in the D2C
+space that have ever gotten to that kind
+of valuation that quickly. It might be
+the fastest I've ever seen. So,
+congratulations on that. That's awesome.
+But with that like the scaling that
+comes with that has all kinds of
+operational
+headaches. What's been one or two of the
+most challenging things you've had to
+deal with operationally, Chad, as you
+guys have scaled at this amazing rate?
+100% inventory.
+Um and more specifically,
+you know, if you double
+in the course of 3 months in your an
+early business,
+it's not that bad for a co-man to pick
+up that
+uh that demand and say, hey, I got you.
+Like we'll just run you an extra day
+here.
+But when you when you start doubling
+at larger scale in a quick period,
+um you got to onboard a new co-man.
+All right, like you got to and if you're
+a
+reputable brand, you have to have good
+quality control in place.
+So, it's not like you just like onboard
+a new co-man. Like you got to be
+planning on that 6 to 9 months ahead.
+So, I'll give you an example. Our our
+third co-man, we started the process of
+onboarding
+when we felt so good on capacity. It was
+like, oh my goodness, the second
+co-man's on. We've got great production
+here. Uh it feels like capacity is going
+to last for a long time.
+And it was like, no, no,
+we we know our forecast. We know where
+we're headed. We got to get working on
+this new co-man right now. Otherwise,
+in, you know, 6 months, we're going to
+feel some massive pain and have to turn
+off the marketing engine.
+Um
+so that's been that's been the hardest
+thing, and I would I would add to that,
+you know, we talked a little bit about
+that process of putting gummies in
+sachets.
+The hardest part is every time we
+onboard a new co-man, we have to teach
+them. Here's how you do it. Here's the
+machine you use. Here are the things to
+watch out for. And there's a good
+sharing happening across the three,
+potentially fourth co-man soon. Um
+but like
+uh we're actually taking a lot of that
+packout process in house. We have a
+Dallas facility we just opened last
+month where we receive gummies in bulk,
+and Grüns in house will be doing a lot
+of that packout, right? Because it's a
+lot easier to scale a new co-man to
+produce gummies than it is to go in
+there, produce gummies, buy this
+machine. Let me train your people who
+know how to produce gummies in how to
+now put gummies in packages.
+>> Yeah, it's totally separate thing,
+really.
+Yeah, you Jason kind of reminds me of
+Hexclad. You guys obviously have been
+hyper scaling and over a long period,
+but then you also have a kind of a
+really proprietary thing with your pans.
+Uh have how have you dealt with just the
+inventory headaches? I know you've
+talked about it some, but you'll you'll
+post sometimes in chat like how many
+containers.
+Like I and I don't know if you you're
+willing to share this publicly, but just
+like he'll he'll post how many
+containers that they are shipping, and
+it's just this absurd number, you know,
+like 20
+>> Hexclad armada. Yeah, 20% of the
+containers on the ocean are somehow
+carrying Hexclad. Our head of ops did
+this awesome
+like AI
+image of an of a container ship like
+literally filled with Hexclad, and like
+that's what shipped in Q4 of last year.
+It's like crazy. Now, we've had months
+of 150
+plus 40-ft containers coming in on a
+ship cuz our boxes are just big. But in
+terms of inventory, you know, we're very
+we have kind of Foxconn it's interesting
+how Foxconn talk about Foxconn
+because like they scaled alongside of
+Apple. I think I didn't read the book,
+but I think that's the case, right? And
+so our factory, our main cookware
+factory, they they produce you know, 95%
+of our cookware, and we're 95% of their
+production. They're our partner. Like we
+have been together from the beginning
+when they were doing like 10 a month.
+So, like every 2 years they build a new
+X-Dri factory and we go see it and
+there's a new sign that says X-Dri and
+they just keep building new factories
+for us
+down in southern China. And so, like
+there have been times when they haven't
+been able to scale.
+Um like in 2021, 2022
+we had difficulty scaling and we were
+out of stock and I remember like right
+before Christmas literally being at the
+warehouse in South Anderson for a
+container of pot sets to come in so that
+we can ship them out with the pan set so
+that people would get their 13-piece set
+in time for Christmas. And like the
+whole senior management team was
+unloading a
+container and slapping a label on it and
+putting it in a UPS truck. I did that.
+>> Yeah, I just basically cross-docking
+inventory. It it goes Yeah. You know, we
+did all that. So,
+you know, it's just that's that's like a
+high-class problem of of scale. And
+uh
+the the problem the other problem is
+cash. You know, like
+if you have the like Shawn keeps a ton
+of inventory. He's He's also his
+inventory are very very small. Doesn't
+take up a lot of space, but I've heard
+him say like he's got a year's worth of
+inventory.
+That I don't think that's good like uh
+inventory turn management uh from a
+financial reporting perspective, but
+>> It's also easier when it's aluminum as
+opposed to like a gummy that's going to
+like, you know, you you don't want a
+year-old gummy going out to to Target or
+something. It's amazing how I mean
+it's amazing how
+Chad has scaled and the ability to
+produce all this. I mean, it really is
+uh
+it's it's incredible operational
+um
+Shout Shout out to our ops team. Um like
+you know, it's never become more clear
+to me as I've talked to some big gummy
+players in the market
+um
+who are just like baffled at what we've
+done in 2 years. It's never become more
+clear to me and I've never had more
+appreciation for what the operations
+team is doing than hearing like experts
+in the space
+like genuinely surprised at our ability
+to stand up these co-mans. But it But
+it's it's because we start scaling them
+up or standing them up, onboarding them
+you know, well in advance of needing
+them.
+Um it's not like, "Oh, we need them.
+We'll get them on board in 6 months."
+No. Man, two things this makes me think
+of. One is like I I just You've said it
+a couple times, Chad, but I want to like
+reiterate it for people listening to
+this.
+I've now been a part of businesses that
+are scaling for gosh, 15 years and
+if you wait until you have to have
+something, you're dead. You know, like
+you really do have to get in front of
+things and that's the hard part about
+scaling. It's kind of like uh the
+exponential growth with technology and a
+lot of people have written about this
+that like the human brain is just not
+able to really kind of comprehend it.
+And so, it'll catch you really off
+guard. And you you you tend to think
+like, "Hey, what's happened the last 3
+or 4 years? Okay, if that happened the
+next 3 or 4 years ahead, where we going
+to be?" And then it's like, "Wait, we're
+like 10 times that level of
+advancement." It's just because the
+exponential nature. Scaling a company is
+the same way. If you try and say like,
+"Okay, what did we need a year ago?
+Okay, what do we What do I think we'll
+need a year from now?" You'll always
+undershoot it when you're growing at
+these really rapid rates because your
+brain just can't wrap it around. But one
+of the things like that I've noticed
+about myself I don't know if you guys
+can relate with this. One of my more
+toxic traits
+is that I can tend to think like the
+hard part is getting
+uh
+to sales and getting like the kind of
+the model established of like, "Okay,
+we're acquiring customers well. We're
+acquiring at good economics." And now
+it's basically just execution and kind
+of easy stuff of like just filling the
+orders and keeping the trains running.
+And the reason I think it's a really
+toxic trait is like it gets real
+hand-wavy that like a lot of times that
+actually the keeping the trains running
+is the hardest part. There's a reason
+why, you know, to use the Apple analogy.
+There's a reason why Tim Cook ended up
+being Steve Jobs' replacement that like
+the operational side of things I've
+talked about this with my CMO several
+times.
+What sucks about being in operations is
+that you don't get a lot of
+uh pats on the back
+when things go well. You just kind of
+get people's attention when it's like,
+"Hey, where was that shipment? Hey, why
+why are Why is the factory screwing
+things up? Why were there defects on
+this order?" You basically just hear
+about it when things aren't going well.
+And then when things go well, it's just
+like, "Yeah, you did your job. So what?"
+So, I don't know. Like I just want to
+emphasize what you said that like
+everybody listening to this like go hug
+your ops person. I don't know, but it's
+a it's a tough job. Our ops department
+is incredible. I mean, they're the
+unsung heroes of X-Dri. I I When I just
+look at all of the operational
+situations that they're dealing with and
+um
+our ops were like terrible for the first
+couple of years that I was here. And so,
+it's we were we were always major We
+always had major issues and major
+mistakes that cost us big money and we
+we finally figured out that we needed to
+get better. Took a while. Took a lot of
+meetings, but we built out an
+incredible, you know, best-in-class
+ops team and that's a that is a very
+like that investment is just like
+reduced so much stress in our
+organization. So, highly recommend that
+like I always say invest in
+understanding your numbers really early
+and invest in your ops really early.
+Like don't be cheap about that if you
+really think your business is going to
+succeed and scale, invest early there.
+Well, and if you're going to partner
+with the Targets, the Walmarts of the
+world, you have I mean,
+they value predictability in your supply
+chain and operations.
+I I'm not going to say they they value
+it more than productivity, but it's
+pretty close. Because their model is all
+about being able to kind of make this
+promise to the customer that, "Hey, you
+show up and we're going to have stuff on
+the shelves." And so, you can be wildly
+productive, but if you're also wildly
+inconsistent in your supply chain,
+that's going to wear thin really quickly
+and they're going to kind of sharpen the
+knives for when your performance drops
+off. So, like it's it's just a really
+big deal that your your partners are
+going to care a ton about as you scale.
+>> Yeah, the precision thing with retail,
+huge. Like when they give you ship
+windows, you hit them. It's not
+negotiable.
+>> Like Walmart's Walmart's big thing is
+OTIF, on time and full. And it's like
+that's their gospel metric.
+>> have a choice. When you get started as a
+new brand, you don't realize that
+they'll send in a PO and expect it to be
+like turn around immediately. So, you
+need to be doing the job on your end
+forecasting, producing inventory that
+you're ready for when they say ship, you
+can ship. And I'd say that's why a lot
+of brands probably have trouble when
+they launch into retail is they're not
+doing that. They're not building up
+inventory for these retailers to be a
+good partner.
+>> Yeah. But if you looked at our OKRs,
+it's the number one. On time and full
+100% we got to deliver to be good
+partners. And And And I do think that's
+really critical to your point uh Mike.
+Like you got to you've got to deliver on
+that. You actually have to be the
+forecaster. Like you're doing your own
+demand forecast for the retailer. 100%.
+Like they're they're not going to do
+that for you.
+>> give you Well, they'll give you a
+number, but that number is like I mean,
+you know, my cabochon puppy could
+probably come up with about a good as
+good a number cuz you know, you're just
+kind of grabbing something out of the
+sky initially. And so, and if you think
+that that, you know, they giving you
+they gave you a number and you, you
+know, prepare for that number. If you
+don't hit that number one way or
+another, like they're not you're not
+going to get a pass on it. If you're
+doubling that sales rate, they're going
+to expect you to be able to support it.
+And if you're half that sales rate,
+they're going to say, you know, it's
+going to be like, "Sorry, you're heavy
+on inventory." You know, like it's just
+the way it is. So, I I I think we're
+absolutely on to something. I mean, my
+my observation about the the D2C kind of
+community, the e-com community is that
+the worst version of it is all you think
+about is marketing basically and and
+product. And there's no operational
+backbone. One of the best things we did
+in the history of the company and it
+sucked so bad. Uh we went from the
+marketplace to 1P with Amazon and the I
+kid you not, our switchover date was
+March 15th, 2020.
+And it was literally like 3 days before
+COVID went bananas. And so, we had to
+basically grow this entire
+organizational operational backbone to
+now We we we went from like just
+shipping containers directly into Amazon
+in California to like having to fill all
+these POs. And it was incredibly painful
+and there was a lot of tension in the
+organization from it. But then because
+we had grown those capabilities, as we
+started to layer on all the retailers
+and we started to grow, we were able to
+support it because we we developed those
+muscles.
+Operators, Black Friday Cyber Monday's
+coming up. Is your SMS list ready? If
+not, get on Postscript. They are helping
+us drive 14% more email sign-ups through
+their better opt-ins. They're helping us
+get 6% more SMS subs every single day
+because they have perfected the art of
+pop-ups. You need to build your list.
+You have to nurture your list. You have
+to take care of your list. Postscript is
+the best at that. They're the number one
+name in SMS. It's a number one revenue
+driver. We are excited and ready to take
+advantage of all of the lists we've
+built all year, okay?
+Postscript has the best opt-in of all
+time. It is single sign-in password
+auto-fill right on your phone. And we're
+going to get probably another 100,000
+people to sign up between now and the
+end of the year. We're going to use
+those people. We're going to use SMS to
+nurture them through the funnel. It's an
+amazing tool. I love it. Make sure
+you're ready for Black Friday Cyber
+Monday. Postscript is here to help guide
+you through everything that you need
+when it comes to SMS. More opt-ins, more
+list building. Make sure you don't look
+like an amateur this BFCM. Use
+Postscript. Tell them Shawn sent you.
+Tell them the operator sent you.
+Postscript will audit your SMS program
+for free and show you how to scale fast
+before Black Friday Cyber Monday hits.
+When we talk about list growth, that's
+what you have to use before, during, and
+after Black Friday. You want serious
+gains, you want Postscript. Thank you
+for supporting the podcast. Thank you
+for being here.
+Hey, I chat real quick, man. On the
+growth. Like cuz your speed has been
+insane.
+I want to ask the dumb question of why
+go so fast? Like why why the extreme up
+into the right?
+You know, we've talked on this show
+in the past about how like in consumer,
+there are rarely winner-take-all, if
+any, right? Like I think the the biggest
+brand in the world might be Coca-Cola
+and they have like 18% market share on
+Coke. And they had to buy every other
+category and every other brand to get to
+like 48 of drink of beverage. So, what's
+the
+Is the speed thing
+uh just a personal style or is it
+strategic? It's about competition. It's
+about category. I'm impatient. So, that
+Okay.
+>> Probably like the number one thing. I'm
+a very impatient person. Um and I think
+a lot of the concern that people have
+about growing fast, you know, like I'll
+I'll point out a a brand that pumped
+really quickly and then fell off a
+cliff. Um Goli, right? We all know that.
+Apple cider vinegar brand. The reason
+why that business fell off a cliff is
+because they were acquiring too many
+customers. They don't have a lot of LTV.
+They're they're churning through the
+universe of customers way too quickly.
+Uh
+contrast that to us, right? People like
+to compare us sometimes because Gummy
+Gummy. Uh but it's an easy comparison.
+Um
+we're not growing fast because we're
+we're acquiring a ton of customers.
+Yeah, like we're acquiring a lot of
+people, but that's not really the reason
+we're growing. We're growing fast
+because Matt, if you bought it if you
+bought from Grüns today,
+you're going to spend like I don't want
+to say exactly how much, but like a lot
+more in the following 365 days than you
+did on day zero. So, what's happening
+here is we're stacking all these cohorts
+together. All under a disciplined three
+times minimum LTV to CAC. And so,
+the way I thought about it from the
+beginning and you know, we've raised a
+few rounds over the course of this
+business, it was always the same thing I
+would tell investors.
+I'm going to I'm going to grow as fast
+as the world lets me
+at that CAC ceiling.
+Because I know that I get at least a
+three times LTV to CAC. So, if that
+means that there's 50,000 customers in a
+month that I can go get at that
+efficiency, I'm going to go get them.
+Cuz that's what the world's telling me I
+can do this month. If it happens to be
+5,000 this month, no problem. I'll go to
+get 5,000 because that's what the
+efficiency says. I don't want to acquire
+somebody if they're unprofitable to me
+and I'd set my profitability metric at
+three times. Um and so, the output of
+that is our growth, right? Like it's not
+like I chose it and I I got to grow and
+hit these targets. Our investor group
+isn't telling me to hit these targets.
+They mostly let us tuck. Um and and it's
+because we have a lot of discipline
+around
+here's the efficiency. The P&L's an
+output of that.
+Yeah, that's great advice, man. That's
+that's kind of why I asked. Yeah. There
+also is um
+this thing called first mover advantage,
+which in some businesses like
+really makes a difference. Um
+and
+in in this space where where Chad is,
+you know, AG,
+I think they were really successful
+because they they
+they went out and they grabbed a big
+lead. And they kind of created the the
+idea of it.
+>> created it, right? And so, I think it's
+to some extent that's what Grüns is
+doing. And so, like stepping I think
+stepping on the gas as long as you can
+have the LTV to CAC discipline that you
+do, um
+you definitely wouldn't want to leave
+anything on the table. Like because you
+just that first mover advantage and
+being, you know, we're the first hybrid
+pan.
+Like no one ever talked about a hybrid
+pan before HexClad. Uh there are lots of
+people talking about a hybrid pan now.
+But we are the real, true hybrid pan.
+That that that does matter. That it
+matters at times, Jason. I mean, like
+look, if anybody creates anything that
+looks like HexClad, that's like HexClad
+knockoff. I mean, we've had people
+try to create put gummies in sachets,
+these little packs. And even if it's a
+completely separate formulation, has
+nothing to do with Comprehensive
+Nutrition, they're like, why you ripping
+off Grüns? That's exactly what we want.
+We want any business that takes that
+like new format, we want to own it. We
+want people to see that and say, that's
+Grüns. Like why are you taking their
+their I don't know, why are you stealing
+from them? Like why are you ripping them
+off? Even if it literally is a different
+needs to be a different product, uh just
+because it looks similar, we got to own
+that. Yeah, it's it's interesting uh if
+you if you look at trade uh like a trade
+dress and and trademarks, it trademarks
+is basically like anything that a
+customer starts to associate with a
+brand. And really the standard in in
+trade dress lawsuits is is something
+confusingly similar. But what you learn
+when you study trademark law is that it
+can be anything. It can be a color. It
+can be a sound. It can be a a slogan. It
+can be the packaging that if you're if
+you were able to kind of associate, hey,
+yeah, this little gummy packet, like
+that must be by Grüns because they're I
+Grüns I keep saying You know, it's so
+funny. I keep saying Grüns and instead
+of Grüns. And I'm doing the thing that
+all of us as founders hate the most. I
+don't know if this has been true for you
+guys.
+>> Well, it bothers it bothers me because
+like it it's it's nails on a chalkboard
+when I mean, people will say Simply
+Modern to me and it's I'm I'm like, I'm
+going to lose my mind. I've been I've
+been introduced for like speaking like
+they're asking me to come up on stage
+and they'll they'll call it Simply
+Modern. And so, it's like I think it's
+the curse of when you start something. I
+don't know if HexClad can be
+mispronounced.
+>> HexClad, there's no way HexClad gets
+mispronounced.
+>> Yeah, but I mean, there's got to be
+Matt, you have to deal with this, right?
+>> and Pella. Like in America, everybody
+calls it Pella because of the Spanish
+influence and then we call it Pella cuz
+we're stupid.
+>> I feel like that's just like a dumb
+influence. In the US, if you go abroad,
+everybody calls it Grüns because they
+know it's German. It means green in
+German. And and and they know that that
+U sound and basically every other
+language has a U uh sound to it. But for
+some reason in America, you get this
+like 70/30 split where 70% of people
+think it's Grüns. Uh and it's like look,
+I don't I don't really mind what you
+call it as long as you're buying.
+>> That's cuz Americans Americans think
+that Americans a language. That's why.
+>> My my brother and I had Quibi's. I mean,
+we'd hear it all. Quibi's and you know,
+Quibids and we'd hear we'd hear every
+variation of it. So, I just think that's
+when you create anything, you just you
+have to release the the pronunciation uh
+of it. But uh so, you mentioned this uh
+Chad. I mean, I think it's really
+interesting with consumables.
+You don't necessarily need tens of
+millions of people. You don't need tens
+of millions of people using your product
+to have an awesome business. You don't
+even necessarily need millions of people
+using your your product to have an an
+awesome business. But you do need people
+to be super fans of of the product. One
+of the things we've talked about on here
+is like you're in health. And the
+downside to kind of health can be the
+faddishness. Uh the the kind of the bone
+broth effect of like, oh, everybody's
+excited about, you know, getting their
+greens and you know,
+and how do you protect yourself against
+that aspect of the category that you're
+in?
+Yeah, we we only play in categories that
+are permanent. Um so, we don't like I'll
+give you an example. Everybody talks
+about creatine and creatine gummies
+right now. Uh I would be so scared to
+run one of those businesses. Yeah, the
+the science behind creatine's
+phenomenal.
+Um but from a fad standpoint,
+people don't always follow science
+perfectly. So, like there's there's some
+risk there that it's not going to be in
+vogue in a couple of years here in the
+way that it is today. So, like how does
+that impact your business? That's hard.
+Comprehensive Nutrition, like that's
+that's fundamental to us living, right?
+Like I'm not if what you're talking
+about is like putting salads in a powder
+and chopping it up and throwing it in a
+blender, like yeah, that might be
+faddish the same way like juicing was,
+you know, like 15 years ago.
+Um
+but that's not what we are, right? Like
+we're Comprehensive Nutrition. It's it's
+the nutrients your body needs, the
+foundational support. And if science
+shows that there's something that we're
+missing from our uh formula for that,
+then we'll insert it into the product,
+right? So, it's not um and then I'll
+give you like nootropics. Like these are
+growing categories. We're not we're not
+attaching ourselves to an ingredient
+like L-theanine. We're going to be the
+the first gummy that puts off L-theanine
+in the gummy and we're just going to
+absolutely own that. There's businesses
+that do that so well, right? Like you
+guys are all friends with Mary Ruth
+Organics. I've chatted with them several
+times. I think what they're doing is
+very different than us. And and that's
+exactly what they have to do. They have
+to find those trends, get there first,
+do clinicals behind them, own that
+ingredient, and it's always finding that
+next one that's going to be the big
+thing. For us, we play in big categories
+that are they're not going anywhere. Uh
+but we insert a new format, a new
+uh
+a new like lifestyle into that into that
+uh category. Yeah, so uh one of the
+things you mentioned, the creatine
+thing, I'd be really curious to hear
+your take. This this kind of uh
+thing about the supplements you get
+online might not contain what you think
+they contain. It has become a thing.
+It's become a thing with Amazon in
+general. Um but it's really becoming a
+thing in the creatine gummy space. Like,
+hey, actually when you test these
+gummies, they don't have what you'd
+expect in them.
+Uh how have you responded to that or
+thought about that in terms of like, how
+do we give people confidence that it you
+know, it's not just like a placebo gummy
+that we're giving people that this
+really is, you know, trustworthy?
+Yeah, it's interesting. Creatine
+degrades really quickly in gummy form.
+So, you might see a brand that clears
+NSF
+has
+the required or stated nutrition labels
+dosage on it at production.
+But does that mean that we're eating it
+all fresh off the line or are we eating
+it 3 months later or 6 months later off
+the line? Creatine degrades quickly and
+so you'll see
+um with stability testing and I don't
+think any of these creatine brands do
+stability testing. I.E. how much
+creatine is in the product 6 months
+later or 9 months later?
+I would even argue like I haven't seen
+anybody talk about stability testing.
+I'll talk about it now. We do it. So,
+what stability testing is
+>> even heard I haven't heard of stability
+testing. So, this is great. So, what
+stability testing is is you're you're
+testing both immediately post production
+to ensure and you'll send it into
+Eurofins to ensure did your product meet
+all of the label claims? The FDA
+requires that you every batch I think
+you rotate through the ingredients on
+it. You only have to test like two at a
+time.
+And so over the course of like, you
+know, 10 to 20 batches you're testing
+the whole formula the whole label. But
+you're not getting a comprehensive view
+on on
+the batch all together unless you go
+send it Eurofins electively. So, we'll
+send it Eurofins. It's Eurofins is a
+third-party lab that tests your product
+and ensures that it actually meets label
+claims, is free of toxins, all the
+contaminants. What you'll see is with a
+creatine stuff that you brought up,
+Mike, they'll they'll send all these
+brands into Eurofins. It's possible that
+some of those gummies are 4 months old,
+6 months old, 1 month old. So, there is
+some like issue with that. Creatine
+especially degrades quickly.
+Um
+and so stability testing would be
+what we've done at Grüns, which is we'll
+test it immediately post production.
+We've also tested the product 8 months
+post production.
+Does the label claim are we still
+meeting label claim 8 months post
+production?
+And and you can see it on our site.
+We've we've showed those COAs that we've
+gotten from Eurofins.
+But again, I don't think especially in
+the gummy category, but also more
+broadly like
+you I know Mike, you buy supplements. I
+don't know if you do, Matt. Oh, yeah.
+Well, my wife does and I take them
+religiously. Yeah, but like the
+have you ever heard the stability
+testing thing before? Probably not cuz
+you're probably taking pills and powders
+and actually don't know the
+stability of like a powder, but in pills
+it's encapsulated. I'm sure it really
+doesn't degrade, but gummy that's a real
+thing. You have to make sure that the
+gummy meets label claims months later. I
+actually did I've got a friend who's in
+supplements. We actually have a lot of
+friends in supplements on the show, but
+the stability thing in powders and pills
+I think is not talked about because it's
+just a given. I think there's like an
+assumption that it's pretty stable, but
+I think that's a great call out on
+gummies.
+Like that's a that's awesome. The bummer
+to me about this space is like it's a
+new consumer thing and you've got a lot
+of bad actors
+in supplements, right? Like there there
+are very few that I look at
+um in the space and
+you know, obviously I'm not going to
+call out names, but it's just like there
+it's so it's so tight the people who are
+like good people trying to do the right
+thing.
+>> Supplements are shady. I mean, I
+graduated
+college in 1993
+and I knew guys back in Arizona who were
+like starting these supplement
+businesses and they were shady and it's
+like you know, you that's another that's
+a great selling point for Grüns, right?
+Like having people understand your
+commitment to your quality and the
+integrity of your business. Yeah, I went
+you know, when I go I very rarely use
+supplements, but but I just recently
+started to look at out of looking at a
+couple
+and I'm scared to buy anything. I
+seriously I I don't I don't do a lot of
+research for a lot of purchases, but
+this one is like I really I even tweeted
+about like creatine supplements cuz I'm
+like, if I'm going to do it, I might as
+well make sure that I'm happy to pay for
+the one that I know is going to be good.
+Like I will pay more for quality, for
+safety.
+And you know, creatine's an interesting
+one because I would say the powder
+like I you know, I I was working out at
+the gym back in 2010 when it was like
+the acidic like it tasted like battery
+acid and I don't know what's changed
+since then, but like that's how you know
+it's working. Chad. Exactly. It tasted
+so bad. But like today you can get a
+powder that like doesn't really have a
+taste. You can throw in a smoothie, you
+know, your pre-workout, whatever it is
+and so it's um
+that that needs state is
+it's hard to you know, like people have
+asked like are we going to put creatine
+in a gummy?
+I think we'll have an interesting
+innovation that you'll see at some point
+and it'll obviously have stability
+around it.
+Um but that's not why people buy Grüns.
+Like that's that's an important aspect
+that gives you reassurance. Like people
+buy Grüns and our products because
+they're like part of the lifestyle.
+Right? Like it's fun for them. They get
+to share it with friends. Oh, by the
+way, it works. We did a clinical study.
+We do all this testing that makes it
+really official, but that I just think
+the space is so um
+it's a lot of like weaponization of
+like, oh, I did this study. We're better
+than you and I don't know. I don't think
+it's the right place to be in versus I
+you know, like kind of like what Dr.
+Squatch did, right? Like we're going to
+make it fun. We're going to relate to
+the consumer and it's a good product by
+the way. It's natural. But like this is
+the first time you're going to enjoy the
+shower.
+Yeah, it's interesting when you're in a
+category that is experiencing real
+adoption and growth the way that gummies
+I'd say more generally are.
+And obviously you guys have been a
+pioneer of that.
+One of the the things that it brings is
+it brings the grifters. You know, the
+the kind of like, I'm going to just
+throw something up on TikTok. I'm going
+to drop ship. I'm going to try and you
+know, hit something easy and quick and
+that unfortunately you've you've got to
+deal with that. You you know, there's a
+when we were doing the Quibids thing, we
+had a competitor. He ran a he ran a
+website called Swipe Bids
+and it was literally just stealing
+people's money. And I I for years were
+like, this dude is like literally like
+he's just he's not shipping product.
+He's just stealing people's money and it
+took a couple years and it was literally
+a situation where he got arrested on the
+tarmac out of a private jet with $15
+million in cash in a briefcase. It was
+like literally one of one of those
+stories, but you just when you're in a
+really high growth category, it's just
+going to be like uh
+bait like a a homing beacon beacon for
+that type of personality and
+unfortunately you've got a you've got to
+educate people and you've got to stand
+out. You got to deal with with all that
+crap.
+You might remember that Ridge switched
+to Richpanel about a year ago. Since
+then, our orders are climbing, get
+support tickets are. Richpanel's
+self-service portal now it's 47% of our
+shoppers solve their own issues
+instantly.
+We used to answer every single ticket
+with a person. Now, that one change is
+on track to save us $500,000 in support
+salaries just this year.
+Our customers satisfaction is at an
+all-time high. It's above 96%.
+And we're doing that with less people
+with more orders. AI is all the rage.
+E-commerce operators are finding ways to
+leverage AI and improve the revenue per
+employee. Ridge targets over $2 million
+per full-time employee and Richpanel's
+helping us achieve that goal. Richpanel
+offers one of the most straightforward
+ways to leverage AI and improve your
+bottom line. Here's how Richpanel's AI
+is different from anything else out
+there. First, Richpanel spends the first
+24 hours just learning your past
+conversations. Then it takes all that
+knowledge and creates self-guided
+service flows. There's no chatbots, no
+hallucinations. It is just
+exactly what your customers need to see
+and hear to solve their problems
+immediately after the first 24 hours.
+Our teams saw the impact on day one.
+We're getting more tickets. They're
+being resolved faster, better with a
+higher level of competency, a higher
+level of satisfaction all with less
+people on the team. So, if you're
+serious about boosting revenue per
+employee and freeing agents to higher
+value tasks, book a demo.
+Switching to Richpanel is painless. They
+do data migration. They train the staff.
+Everything is handled. It's a white
+glove service for operators listeners.
+Brands like Ridge, Jones Road, Pela,
+Lomi, they're all already switched and
+they were live within 2 weeks. They
+guarantee 30% ticket reduction in the
+first 60 days or your money back. Think
+about that. You're going to get a bunch
+of customers coming to you. Q4 is just
+around the corner and they guarantee 30%
+reduction in human tickets in the first
+60 days. If that's interesting to you,
+go to richpanel.com/demo
+to book a demo. That's r i c h
+panel.com/demo.
+Get started today. Thank you so much
+Richpanel for supporting the world's
+number one e-commerce podcast and being
+on the greatest show on earth. Let's get
+back to it.
+Hey Chad, I'm
+I'm curious
+like the financing journey that you've
+had and I and I know you guys are very
+private. I don't want you to mention
+numbers. I'm not asking you to mention
+any actual numbers, but like
+you've done a couple raises. Like you
+got this thing started. Like what what
+did that look like? What like cuz I know
+we know a lot of people that want to be
+like you, right? And I want to be like
+you, but like the
+um I want I want to be like you, Jason.
+I'm I'm my best to get to your scale.
+Yeah, I want I want Chad's valuation 2
+years in or 3 years in, whatever it is.
+How do I do that? Can you just tell me
+how to do that, Chad? Well, clearly you
+had an I mean, clearly you had a great
+idea and you executed on it well. You
+have got you have a a great product. You
+know, the
+there's there's a lot of trendingness
+around this space
+and um
+I think the jury is out on any business
+how sustainable it is long-term, right?
+We've had a
+dozens of people tell us about us that
+about Hims like, can you really keep
+this up? Can you really keep this up? I
+don't think any of us know, but I think
+you have a good chance of keeping it up.
+But like how did you get it to here from
+from a financing perspective? Can you
+give us like a high-level overview?
+>> Yeah, of course. And I would say I
+you know I see people
+trying to figure out the operations that
+produce our product.
+And
+I think what folks miss
+is it it's not just a product. Like that
+that's like one of the 20 things that's
+going right for us that make the LTV to
+CAC and the growth work.
+There's there's just like so much more
+to it and and I genuinely do feel a
+little bit bummed for these folks cuz
+they're going to years of their life.
+There's already like three who have done
+it before, credible entrepreneurs who
+have tried to rip it and it didn't work
+for them. Um
+and so I like I I don't know like this
+is actually a really hard category. I
+don't think people who know when they
+look from the outside they're like, "Oh
+man, they're they're doing so well. Like
+must be easy. Let me just go like figure
+out their operations and I'll do it
+myself." And it's not. It it There's a
+lot going on in in this category to make
+it work. Um but yeah, to to your
+question, Jason, we uh
+I
+you know, people ask me like what was
+that I got the question like how much of
+the growth of Crowns would you say is
+due to your experience as an investor
+and being on the board of all these
+awesome brands versus like Stanford. And
+the reality is like from a knowledge
+standpoint, Stanford's like 0.1%. Like I
+did not learn There's like basically
+nothing in how I operate this business
+that I got from that MBA experience.
+However,
+um I didn't grow up around wealth.
+And
+that early
+round that we raised to get off the
+ground came from friends and family. And
+my friends at Stanford's families.
+And so like would we have a business
+today
+absent that experience and those friends
+putting their confidence in me? No,
+Crowns would not be here today if I
+didn't have that that ability. So like
+I'm I'm happy to share. Like we raised
+um a little over 300,000
+of cash to get the business started.
+Half of that went towards the initial
+PO. I'll tell you my first comment was
+like, "I'll never see this guy again.
+It's a big PO. So we'll take it." And
+that's probably why they ended up doing
+the the hand pack out, right? Cuz they
+were like, "It's just a one-time thing.
+Yeah, we're not buying a machinery for
+this guy. Don't don't worry about it.
+He'll be gone. We're just going to do
+this really quick on a table." Um
+And so
+I but basically every 6 months after
+that raised a round. So like none of the
+VCs, the hardest part about consumer is
+none of these institutional investors,
+venture capitalists, none of them want
+to put money in to a business that
+hasn't launched. Unless you're a
+celebrity, you've got some like
+interesting take, which I didn't have
+any of that, right? Like In fact, I
+would say investors look at other
+investors and they're like, "Look, I
+know my experience is is as an investor,
+there's no way you could do this,
+right?" And I do think my experience as
+an investor was different than theirs,
+but that doesn't matter. They have their
+perception. And so it was it was hard
+pre-launch to get any traction with VCs,
+but you know, week into launch we're
+doing like $5,000 revenue days. And and
+I literally emailed all these investors
+and said, "Hey, you got a week to close
+on this.
+I'll let you into the round that I
+raised on friends and family, but we're
+closing. So if you want in, then you
+need to put in." And we got 1.25 million
+um in like the second week of the
+business, third week of the business,
+which ran for another 6 months. Then we
+raised in February of 2024,
+um I believe it was 6 million.
+Uh and then in August, that was last
+year, August of 2024, we raised um and
+at that point we were break even. So
+this is more of like cash buffer and
+other needs. It wasn't like from a burn
+standpoint. Um
+we raised another I believe it was 11 or
+12. And then the most recent round that
+you all have seen in uh April, May of of
+this year, the $35 million round.
+But you're you know, look, you had a lot
+of experience in this, right? And so you
+you kind of knew how to get that quick
+raise done. You're like, "This is the
+deal, guys. We're crossing it. Come in."
+That that's um that's well executed.
+That's not like not just every
+the average entrepreneur
+um probably couldn't do that. Couldn't
+execute that. Like execution is 50% of
+the battle when it comes to raising
+capital, right? I mean it's
+let's just be honest about that. It's so
+hard. It is so hard in this market to
+raise money and you know, I feel
+fortunate that we'd gone four for four
+on it. Um but it's not easy and I'll
+tell you this last round was
+particularly hard. I I would say that I
+our valuation is a really good
+valuation. The the 500 million is a
+really good valuation for the recent
+investors. Now, that's hard to believe.
+Um but looking at multiples, it's it's a
+really good valuation and I think
+there's an important reason for that,
+right? We need to leave upside for um
+you know, whatever whatever the future
+looks like, whether it's a strategic,
+whether it's an IPO, those people need
+to make their make their return. And so
+we intentionally took a valuation lower
+than what I think we're worth
+to leave that upside. Man, I just want
+to stop there and say this is a one of
+the things that is somewhat
+counterintuitive about how really
+successful people think.
+They intentionally think about how to
+help other people win. And that's part
+of the reason that they win.
+Uh less moderately successful people, I
+think, tend to only think about how do I
+maximize my outcome? And I'm going to
+constantly just focus on maximizing my
+outcome. And so they never hit the real
+home runs because the way you hit the
+grand slams, I'm convinced, is primarily
+by not just winning yourself, but by
+helping a halo of people around you win.
+And that was that's a great illustration
+of it. You're actually thinking about
+not how do I get the maximum valuation
+here or, you know, the most money for
+the least amount of equity, but how do I
+actually make sure that the investors
+who are involved in this round crush it.
+And that's going to lead to
+opportunities in the future that you
+don't know about. I mean, we can't even
+We're sitting here. We we don't know
+what those would be, ways that that's
+going to come back to you, but it but it
+will. Sounds like your plan, Chad, is
+that this is probably the last round
+that you do that that in the future like
+there's there's probably We're nicely
+profitable. We don't we don't need
+additional cash for anything. I'll tell
+you one thing that I
+um
+probably should have mentioned that
+matters a lot to me is I think the
+debate around whether to raise or not
+usually focuses on like, "Oh, you're
+like the VCs now have control and
+they're going to like tell you what to
+do and you need to hit these targets."
+And you know, we're growing really fast.
+Like that's not really a concern from
+like, "Oh, we need to like put out
+numbers." Uh and we're nicely
+profitable.
+But what I would say is I I tell anybody
+who comes to me
+and asks
+whether they should raise is you should
+If somebody wants to give you money,
+take it.
+Unless you're giving up voting control.
+Unless you're giving up control of the
+destiny of the business, then don't take
+it. So like again, you know, you see one
+headline in this this recent round of
+500 million.
+Deal terms on that? Super clean. People
+people don't necessarily see that part.
+Whereas I can tell you a competitor of
+of ours back in 2022 raised at a 1.1
+billion dollar valuation. Ridiculous.
+Yeah, nobody nobody understands that
+that top line number means almost
+nothing. We talked about that on the
+last pod. We talked about different kind
+of, you know, I don't know if that that
+that launched today like structured
+deal. So your deal that deal didn't have
+a lot of structure, Chad? No, I mean
+that was I was super clear from the
+start. I was like, "We don't need to do
+this round." Um and so if we're doing a
+round, like we want a good partner who's
+going to help us strategically scale.
+And two, it's going to be clean. It's
+going to be like a one-time lick breath.
+Well, and when you don't try and get
+super aggressive on the valuation side,
+it's easier to do that as well. That's
+another reason why you don't try and get
+every penny on the valuation side
+because there's always going to come
+with strings attached on the liquidation
+preferences or, you know, board seats or
+a whole bunch of other things. So but it
+still is interesting to me. I mean, you
+guys are profitable.
+Do you actually have like line of sight
+to how you're going to use that money or
+is it more just like somebody wants to
+give me a whole bunch of money, I might
+as well put it on the balance sheet? No,
+I mean there was always intent with
+every single round we raised.
+Historically, you know, in the first
+couple rounds it was
+uh back to what I was sharing with Matt
+here is the uh
+you know,
+if the world lets me capture a certain
+amount of new customers in a month,
+we're going to be unprofitable. And so
+we're funding some of that
+unprofitability from a P&L standpoint,
+but not unprofitable LTV to CAC
+economics.
+Um
+Now that the business has scaled, I
+would say there's two reasons to raise.
+Number one is
+um
+you know, if you've got $1 million of
+cash in the bank
+and a $10 million revenue business, that
+feels comfortable. Yeah.
+>> But if you're running at break even and
+now you're doing 50 million of revenue
+with 1 million of cash in the bank,
+that's not good. You should cushion that
+up. And the way to cushion that is
+either slow down growth or put some more
+money on the balance sheet
+to create that buffer.
+Um I would say that's more of like what
+we were doing you know, last year. Now
+it's you know, we're funding massive
+growth of growth in retail.
+And that cash flow terms of 60 days, you
+got to like you got to finance that
+somehow. Um We're building out this
+facility in Dallas. So there's like real
+cash needs that Yeah, don't sit on the
+P&L. They sit on, you know, cash flow
+statement or other areas where we need
+to need to create some cash cushion.
+You know, something you said, Chad, that
+I think is important for founders on the
+investor side is I got this advice from
+a guy in the Bay Area years ago when we
+were raising money. Um cuz I was always
+scared of control.
+Right? It's like, "Well, what if they
+get control? How much equity do I own?"
+And this guy who had sold his company
+for three and a half billion dollars, he
+was like, "Oh, no, no, no. You don't
+understand. You have You You as the
+entrepreneur always have control." He's
+like, "There's no venture investor
+that's showing up to run your company."
+No.
+He's like, "At very late stages, like in
+the many, many billions, like the
+Instacart situation, you hear these war
+stories of like hostile investors that
+kick founders out. I mean reality is
+anybody listening to this show like most
+people aren't going to be in that seat.
+You know, so even the voting control
+thing is actually great call.
+But like this idea that you own less
+than say like half of the company at
+some point
+and that you lost control.
+No, you didn't. There's the profits
+interest and how much of the profits
+interest you have and how is the board
+structured and
+>> Totally. the Very different things.
+>> It is counterintuitive to people. Like I
+know a founder who owns
+75% of his business. He doesn't really
+control the board.
+It's five people and he's one and I
+would say it's a friendly board. So it
+doesn't matter and the business is doing
+well, but I've I've kind of privately
+told him like the moment that you feel
+like you can you should you should
+change the structure because if you if
+things did go really badly, you are
+actually vulnerable here in a way. And
+it's one of those things that like the
+way your board is structured, it's not a
+big deal until it's a huge deal and then
+>> Chip Wilson's talked about this his
+Lululemon story. Like he's been pretty
+public that that board control
+ultimately bit him in the I don't think
+I would want to run a company where I
+did not know that I controlled the
+board. And I there's other people that
+can do it. I think it's a different
+mindset
+to be able to do that. But when when
+you're in that situation, you just need
+to know that now a significant portion
+of your mind share needs to go towards
+optics and towards politics because
+there are now people that can vote you
+out of your seat and you have to manage
+perceptions. Whereas
+you know,
+when you're when you're in a position
+where you know you have the board
+control, you don't have to worry as much
+about perception and and you can run the
+business the way that you think's best.
+>> Yeah, it's great call out. It's
+interesting. I had um the I had less
+than 50% of Simple Modern
+and but I was like I'm
+I actually put in a provision. It's I
+don't think I've heard of anybody doing
+this cuz I had two co-founders, but the
+provision I put in was that I had 50%
+exactly of the voting interest and it
+was kind of symbolic in that I'm like I
+don't need to know that I have control.
+I need to know that I can block anything
+that I think's antithetical. So it's
+even like there's a spectrum of like
+it's not like you need to be
+authoritarian or you need to like be
+able to control everything. But if you
+can't stop things that you think are
+kind of against what the company's
+intended to be or you know, your removal
+or something else.
+And my thought was always like the the
+thing I liked about 50% which like I
+said, I don't think I've ever heard of
+anybody intentionally voluntarily doing
+this was that it put me in a position
+where I knew I had to convince at least
+one other person to see things my way.
+And if I couldn't convince at least one
+other person, then probably I should you
+know, look like well, why is that? But I
+just couldn't have anything crammed down
+my throat.
+>> It's so critical, but it's it's hard.
+You got to leverage like a lawyer legal
+counsel to help you with that cuz
+there's so many terms that if you're not
+in the investing world, you're not going
+to pick up on.
+Um Well, it's totally asymmetric and and
+you know this Chad, but like if you go
+and raise a round,
+you're doing it
+for the first, second, third time maybe,
+right? This is their 50th. This is their
+50 their hundred the whatever and so
+like you're going to get waxed in that
+transaction in in terms of like just the
+the the information asymmetry is really
+big.
+So you have to walk in knowing that and
+there's there's some great books
+about like kind of bringing yourself up
+to speed on some of the basics, but then
+kind of to your point Chad, you really
+want advisors. If you're going to take
+money from anybody, you really want
+advisors that have done it before that
+are helping you like look over the terms
+because uh you can you can very easily
+make a bed that you don't really want to
+sleep in.
+Jason, what what do you like about
+Saros? You were gone for the past week
+in Italy. Were you checking Saros dead
+dashboards?
+>> I wasn't checking anything in Italy, but
+I will say this like whatever anyone on
+my team's like growth team
+or or anywhere else like sends me data
+anymore,
+it's likely coming out of Saros. And
+every once in a while I'll get something
+from them and it looks really slick and
+I'm like, where did you get the is that
+Saros? And like yeah, and I always feel
+really good about our investment. I do
+get a daily email of some metrics out of
+Saros that comes through, but one of the
+things that I've been thinking about a
+lot lately is AI.
+Um I mean duh, right? Everyone is.
+Duh. But like I finally woke up a few
+weeks ago. I finally woke up a few weeks
+ago. I was like, I got to get serious
+about this and I was actually talking to
+the to the Saros guys and they launched
+a next generation um
+an AI powered stuff in there in the
+platform, which I'm excited about. It's
+Saros IQ. It's invite only right now. If
+you mention Operators podcast, you can
+probably get access hopefully. But you
+know, the next level of all of this is
+have you first with AI, you need to have
+all of your data
+uh somewhere. I mean you can
+it's going to be really messy to just
+drop stuff into different AI platforms.
+If you have your data in one place and
+then you can leverage. You can really
+leverage AI. So the way I thought about
+our investment in Saros analytics was
+getting all of our data in one place,
+understanding our customers better,
+understanding our marketing metrics
+better, but then being able to layer AI
+on top of that is I think the really
+exciting next level here. You brought up
+bringing Costco, Amazon and Shopify.
+The ability to have all sales channels
+with the same data is so important. If
+you're listening to this and you sell on
+Amazon, you know how painful that
+platform is. You have to wait like a
+couple extra days to pull your reports.
+Like the SKUs aren't the same as the
+rest of your SKUs. Like the titles are
+different. So like to get actually like
+clean data to compare, it's very manual.
+Using Saros analytics, they mashed all
+that up for us. So like they cleaned all
+that data. So I can actually look at
+what is the true margin profile of an
+Amazon sale, what's Amazon return rate,
+what's Amazon customer frequency, like
+all the type of data compared to our dot
+com and have like a comprehensive
+overview. And now with their new AI
+tool, I don't have to look at it. I can
+just ask it. It can just tell me cool
+questions. So doing that across our five
+Shopify stores as well. We have an EU
+Shopify store. So now I can compare EU
+ring customer cohorts versus Canadian
+ring customer cohorts versus Amazon ring
+customer cohorts. So now we're getting
+into different functions of my business
+across different channels, different
+categories and actually looking at the
+margin, the repeat rate and like is it
+worth investing in these different
+things. So if your business starts to
+feel like a spider web and just like
+keeps going and going and going, it's
+just like this non-stop proliferation of
+different channels,
+maybe it's time to check them out like
+Saros analytics. I remember Shawn
+at the very beginning.
+This is the very typical Shawn thing.
+Shawn was Shawn was like, what is this?
+Why do I need this, right? And um I'm
+actually really happy that you've you
+come to understand like how important
+having a data warehouse is
+and and what it does for for managing
+your business because you were not like
+a true believer from the beginning.
+No, I was I was angry when when you tell
+me I needed to pay for something new,
+but
+Jason was right.
+I he convinced me. He got me on board.
+I'm using it. So a rare Jason W. So
+thank you Jason. Very rare.
+I'm on Saros analytics. He's on Saros
+analytics. Proud sponsor of the
+Operators podcast. So if you want a data
+warehouse and you want an AI powered
+data warehouse,
+tell Saros about the Saros IQ feature
+and then you crave it. You're demanding
+you get access to it. So all right guys,
+talk to you later.
+Hey Chad, let me ask this question.
+We're kind of getting to the end.
+What's one thing that you learned
+through the experience of scaling so far
+uh that surprised you or what's what's
+one of the ways that you've grown that
+you wouldn't have anticipated? Team.
+I like it's not lip service. You'll see
+me saying it everywhere. I think some
+people read that and they're like, oh,
+he's just like saying it. No, like
+no good brand
+long-term long-standing brand is built
+off of five to 10 people. No. Period.
+And and there's so much hype in the D2C
+community around well, how efficient are
+you? I can I can almost guarantee you
+that our
+payroll and external agency fees lumped
+together as a percent of revenue is
+lower than anybody else.
+We've almost got a hundred people on our
+team. We're basically all in-house.
+That should be the measure of efficiency
+and I think everybody gets so held up
+around
+like you see it everywhere. It's like,
+oh my goodness, this brand's doing blank
+and they got two two full-time people.
+I'm like, that sounds like to me
+somebody who doesn't know how to lead.
+He doesn't know how to manage, doesn't
+know how to build a team, can't find the
+right people and and they'd rather
+lean in on this moment of time where
+we're all hyping it up how great they
+are that they just use like 20 agencies.
+And so what I've learned and and it's
+funny. I would probably put myself in
+that category. I I was pitching back in
+February of 2024 that I could get this
+thing to a hundred million of revenue
+with four employees.
+Um and it my chief of staff at the time
+Katie, she's not president of Grinds.
+Promoted her about six months in. She's
+phenomenal. Um she made a comment to me
+like a month into her her role. It was
+like May. She was like, hey, I think we
+need to like hire people.
+I'm like, I don't know. And she's like
+laid it out for me and I was like, you
+know what? You're right. And then that's
+spurred what we've done here where we've
+brought so much in-house and and we have
+a really good hiring function and good
+culture, but like that need I need
+somebody to to wake me up to that. And I
+think there's levels where people start
+to realize it at like 28 million of
+revenue. They're like, we're just not
+going to build this you I be curious if
+anybody could point me to one single
+brand that's doing over 100 million of
+revenue sustainably, planning to grow
+for the long term, that has like five
+people.
+>> No, you're moving physical things around
+the world. No.
+>> I think there's smaller teams. You can
+do it with a smaller footprint than you
+used to. We had Will from IQ Bar. He's
+doing it with a with a pretty tight
+group.
+Um but to your point
+>> Yeah, but but to your point, like
+there's some uniqueness that makes that
+possible. I think I think consumer where
+you're in really big channels and and
+and maybe if you're not doing like tons
+and tons of R&D, like there's ways to
+make it work. But generally, like
+we just get way too hand-wavy about how
+important team is and uh I think at the
+end of the day, business is primarily
+about organizing human capital. I'm
+convinced. I think people focus a lot
+more on the other aspects, the financial
+capital and the other stuff. To me, like
+financial capital is mostly a commodity.
+You got a lot of people offering it.
+There's not a lot of differentiation.
+But human capital is a a massive piece
+of success and if you if you're superior
+at being able to gather and organize
+human capital, you're inevitably going
+to be successful. Organize is the really
+important part there. I think, you know,
+you might ask, now that we have all
+these wonderful humans here at Currans,
+like what do I do? I see my job is set
+the vision, make sure that everybody's
+very clear on what's going to drive
+growth. And two, I set the connected
+web. I'm I'm I'm the one that needs to
+ensure that communication patterns and
+uh
+street streets, avenues in the company
+are very clear so that we function
+correctly all together and
+um
+that's not that's not easy to do, right?
+Like it's actually kind of hard to do
+that stuff and it's a completely
+different skill set than when uh Jordan
+our um
+she does influencer here at at Currans.
+She was employee number one back in
+October of 2023 when she and I were the
+only two running it for six months. But
+like I did a lot of different stuff back
+then that I don't do anything with that.
+I would I was telling the team like I
+used to look at look at Shopify like 20
+times a day, like the Shopify admin. I
+look at it like three times a month now,
+maybe. Um
+yeah, it's completely different world.
+Yeah, it's funny like I've I've actually
+kind of realized that there's a negative
+correlation between how often I'm
+checking our numbers and how well I'm
+doing and leading people, typically.
+Like the more I'm in spreadsheets and
+the more I'm I'm looking at dashboards
+because they're just very different
+parts of my brain. Well, hey, uh Chad,
+this is awesome, man. Uh thank you for
+joining us. Congratulations on all the
+success. It's really fun when you see
+such a successful product that's great
+for people, but then also you see like
+just excellence in operating. And so, we
+admire what you've done there and and
+know that you're going to be continuing
+to scale and do great things, but really
+appreciate you especially with a culture
+where like you said you are externally
+opaque, really appreciate you being
+willing to share some of your insights
+from running the company. This is
+invaluable. So, thanks for being on the
+pod, man. Appreciate you guys having me.
+It's a
+looking forward to giving back more.
+We're in that period of externally
+opaque, but I think you'll you'll see me
+try to share out more. I have no desire
+to be an influencer. If you look me up
+on YouTube, my wife and I did that for a
+year and actually built a pretty good
+YouTube following. I This is for no
+other purpose than to help people and
+help them improve their business. So, I
+appreciate you guys having me on and let
+me letting me have the chance to do
+that. That's awesome. All right, guys,
+that's the pod. All right, thanks for
+making it all the way to the end of this
+episode. Wherever you are in the world,
+it is awesome to have you here. If you
+do not already subscribe to this show,
+that is my one ask. Is please go to
+whatever platform you are watching or
+listening to this on. It could be
+YouTube, it could be Spotify, Apple, I
+don't care. Just go hit subscribe
+button. Please pump our egos up. It
+helps. And before we go, one more thank
+you to the sponsors, Fulfill,
+Postscript, Northbeam, Saris, and
+Richpanel. Awesome guys running these
+companies. We all use them. These are
+our vendors. That's the only reason
+they're sponsors of this show. So,
+thanks again to those people.

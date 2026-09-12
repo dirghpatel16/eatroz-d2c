@@ -1,0 +1,503 @@
+<title>Roz Pitch Deck</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400..800&family=Karla:ital,wght@0,400;0,500;0,600;0,700;1,400&family=IBM+Plex+Mono:wght@400;500;600&display=swap');
+
+  :root {
+    --ink: #211d33;
+    --ink-soft: #423c5c;
+    --paper: #fbf3e7;
+    --paper-dim: #f1e6d4;
+    --jade: #2f5d4f;
+    --jade-soft: #4a7c6c;
+    --peel: #cf6a34;
+    --peel-soft: #e0854f;
+    --gold: #b9852f;
+    --stone: #8b8172;
+    --line: #ddd0b8;
+    --surface: #ffffff;
+    --shadow: 0 1px 2px rgba(33,29,51,.06), 0 8px 24px rgba(33,29,51,.08);
+    --radius: 14px;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --ink: #f3ead9;
+      --ink-soft: #cfc4ae;
+      --paper: #201c2c;
+      --paper-dim: #2a2438;
+      --jade: #6bab93;
+      --jade-soft: #8bc2ab;
+      --peel: #f0925a;
+      --peel-soft: #f6ac81;
+      --gold: #e0b354;
+      --stone: #a89e8c;
+      --line: #3c3550;
+      --surface: #2a2438;
+      --shadow: 0 1px 2px rgba(0,0,0,.3), 0 12px 32px rgba(0,0,0,.4);
+    }
+  }
+  :root[data-theme="dark"] {
+    --ink: #f3ead9;
+    --ink-soft: #cfc4ae;
+    --paper: #201c2c;
+    --paper-dim: #2a2438;
+    --jade: #6bab93;
+    --jade-soft: #8bc2ab;
+    --peel: #f0925a;
+    --peel-soft: #f6ac81;
+    --gold: #e0b354;
+    --stone: #a89e8c;
+    --line: #3c3550;
+    --surface: #2a2438;
+    --shadow: 0 1px 2px rgba(0,0,0,.3), 0 12px 32px rgba(0,0,0,.4);
+  }
+
+  * { box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  body {
+    margin: 0;
+    background: var(--paper);
+    color: var(--ink);
+    font-family: 'Karla', system-ui, sans-serif;
+    -webkit-font-smoothing: antialiased;
+  }
+  h1, h2, h3, .display {
+    font-family: 'Bricolage Grotesque', system-ui, sans-serif;
+    text-wrap: balance;
+    letter-spacing: -0.01em;
+    margin: 0;
+  }
+  .mono { font-family: 'IBM Plex Mono', ui-monospace, monospace; font-variant-numeric: tabular-nums; }
+  p { line-height: 1.55; }
+
+  /* ---------- deck shell ---------- */
+  .deck { position: relative; }
+  .slide {
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: clamp(28px, 6vw, 96px) clamp(20px, 8vw, 120px);
+    position: relative;
+    border-bottom: 1px solid var(--line);
+  }
+  .slide-inner { max-width: 1180px; margin: 0 auto; width: 100%; }
+  .slide.center { align-items: center; text-align: center; }
+  .slide.alt { background: var(--paper-dim); }
+
+  .kicker {
+    display: inline-flex;
+    align-items: center;
+    gap: .5em;
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: .72rem;
+    letter-spacing: .12em;
+    text-transform: uppercase;
+    color: var(--peel);
+    margin-bottom: 18px;
+  }
+  .kicker::before { content: ''; width: 22px; height: 1.5px; background: var(--peel); display: inline-block; }
+
+  h2.title { font-size: clamp(1.9rem, 4vw, 3.1rem); font-weight: 700; line-height: 1.08; }
+  h2.title em { font-style: normal; color: var(--jade); }
+  .lede { font-size: clamp(1.05rem, 1.6vw, 1.3rem); color: var(--ink-soft); max-width: 62ch; margin-top: 18px; line-height: 1.6; }
+
+  .note {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: .74rem;
+    color: var(--stone);
+    border-top: 1px dashed var(--line);
+    padding-top: 12px;
+    margin-top: 32px;
+    max-width: 68ch;
+  }
+  .note b { color: var(--ink-soft); }
+
+  /* ---------- progress rail ---------- */
+  .rail {
+    position: fixed;
+    right: 18px;
+    top: 50%;
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+    z-index: 50;
+  }
+  .rail button {
+    width: 8px; height: 8px; border-radius: 50%;
+    border: 1px solid var(--stone);
+    background: transparent;
+    padding: 0;
+    cursor: pointer;
+    opacity: .55;
+    transition: all .25s ease;
+  }
+  .rail button.active { background: var(--peel); border-color: var(--peel); width: 10px; height: 10px; opacity: 1; }
+  .rail { display: none; }
+  @media (min-width: 900px) { .rail { display: flex; } }
+
+  .counter {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: .72rem;
+    color: var(--stone);
+    z-index: 50;
+    background: var(--surface);
+    padding: 5px 10px;
+    border-radius: 999px;
+    box-shadow: var(--shadow);
+  }
+  .brandmark {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    font-family: 'Bricolage Grotesque', sans-serif;
+    font-weight: 700;
+    font-size: .8rem;
+    letter-spacing: .02em;
+    color: var(--jade);
+    z-index: 50;
+  }
+  @media (max-width: 899px) { .brandmark { display: none; } }
+
+  /* ---------- components ---------- */
+  .big-num { font-family: 'Bricolage Grotesque', sans-serif; font-weight: 800; font-size: clamp(2.6rem, 7vw, 5.2rem); line-height: 1; color: var(--jade); }
+  .big-num small { display: block; font-family: 'Karla'; font-weight: 600; font-size: .32em; color: var(--stone); margin-top: .4em; letter-spacing: 0; }
+
+  .stat-row { display: grid; grid-template-columns: repeat(auto-fit, minmax(190px, 1fr)); gap: 28px; margin-top: 40px; }
+  .stat { border-left: 2px solid var(--line); padding-left: 18px; }
+  .stat .v { font-family: 'Bricolage Grotesque'; font-weight: 700; font-size: clamp(1.5rem, 2.6vw, 2.1rem); color: var(--peel); }
+  .stat .l { font-size: .86rem; color: var(--stone); margin-top: 4px; }
+
+  table { border-collapse: collapse; width: 100%; margin-top: 28px; font-size: .95rem; }
+  th, td { text-align: left; padding: 11px 14px; border-bottom: 1px solid var(--line); }
+  th { font-family: 'IBM Plex Mono'; font-size: .68rem; letter-spacing: .06em; text-transform: uppercase; color: var(--stone); font-weight: 500; }
+  td.num, th.num { font-family: 'IBM Plex Mono'; font-variant-numeric: tabular-nums; }
+  tr.hi td { color: var(--jade); font-weight: 700; }
+  .tablewrap { overflow-x: auto; }
+
+  .grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 44px; align-items: start; margin-top: 36px; }
+  @media (max-width: 760px) { .grid2 { grid-template-columns: 1fr; } }
+
+  .card { background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); padding: 24px 26px; box-shadow: var(--shadow); }
+  .card h3 { font-size: 1.02rem; font-weight: 700; margin-bottom: 10px; }
+  .card ul, .list { margin: 0; padding-left: 1.1em; }
+  .list { list-style: none; padding-left: 0; display: flex; flex-direction: column; gap: 12px; }
+  .list li { padding-left: 1.6em; position: relative; }
+  .list li::before { content: '—'; position: absolute; left: 0; color: var(--peel); font-family: 'IBM Plex Mono'; }
+
+  .pill { display: inline-block; font-family: 'IBM Plex Mono'; font-size: .68rem; letter-spacing: .05em; text-transform: uppercase; padding: 3px 10px; border-radius: 999px; border: 1px solid currentColor; }
+  .pill.good { color: var(--jade); }
+  .pill.bad { color: var(--peel); }
+  .pill.warn { color: var(--gold); }
+
+  .versus { display: grid; grid-template-columns: 1fr auto 1fr; gap: 20px; align-items: center; margin-top: 36px; }
+  .versus .side { background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); padding: 22px; box-shadow: var(--shadow); }
+  .versus .side h4 { font-family: 'IBM Plex Mono'; font-size: .72rem; letter-spacing: .08em; text-transform: uppercase; color: var(--stone); margin: 0 0 14px; }
+  .versus .vs { font-family: 'Bricolage Grotesque'; font-weight: 800; color: var(--peel); font-size: 1.4rem; }
+  @media (max-width: 760px) { .versus { grid-template-columns: 1fr; } .versus .vs { justify-self: center; } }
+  .kv { display: flex; justify-content: space-between; padding: 7px 0; border-bottom: 1px dashed var(--line); font-size: .92rem; }
+  .kv:last-child { border-bottom: none; }
+  .kv .k { color: var(--stone); }
+  .kv .v { font-family: 'IBM Plex Mono'; font-weight: 600; }
+
+  .risk-list { counter-reset: risk; display: flex; flex-direction: column; gap: 16px; margin-top: 32px; }
+  .risk-item { display: grid; grid-template-columns: 44px 1fr; gap: 16px; align-items: start; }
+  .risk-item .n { counter-increment: risk; font-family: 'IBM Plex Mono'; font-weight: 600; color: var(--peel); font-size: 1rem; }
+  .risk-item .n::before { content: counter(risk, decimal-leading-zero); }
+  .risk-item p { margin: 0; color: var(--ink-soft); font-size: .96rem; }
+  .risk-item b { color: var(--ink); }
+
+  .roadmap { position: relative; margin-top: 48px; padding-left: 26px; border-left: 2px solid var(--line); }
+  .rstep { position: relative; padding-bottom: 34px; }
+  .rstep:last-child { padding-bottom: 0; }
+  .rstep::before { content: ''; position: absolute; left: -32px; top: 4px; width: 10px; height: 10px; border-radius: 50%; background: var(--peel); border: 3px solid var(--paper); box-shadow: 0 0 0 2px var(--peel); }
+  .rstep .y { font-family: 'IBM Plex Mono'; font-size: .74rem; color: var(--jade); text-transform: uppercase; letter-spacing: .06em; }
+  .rstep h4 { font-size: 1.08rem; margin: 4px 0 6px; }
+  .rstep p { margin: 0; color: var(--ink-soft); font-size: .93rem; max-width: 60ch; }
+
+  .cover { text-align: left; }
+  .cover .mark { font-family: 'Bricolage Grotesque'; font-weight: 800; font-size: clamp(3.6rem, 11vw, 8rem); color: var(--jade); line-height: .9; }
+  .cover .tag { font-size: clamp(1rem, 2vw, 1.3rem); color: var(--ink-soft); margin-top: 18px; max-width: 48ch; }
+  .cover .meta { margin-top: 44px; font-family: 'IBM Plex Mono'; font-size: .8rem; color: var(--stone); display: flex; gap: 26px; flex-wrap: wrap; }
+  .heat-strip { position: absolute; inset: auto 0 0 0; height: 6px; background: linear-gradient(90deg, var(--gold), var(--peel), var(--jade)); }
+
+  .thesis-line { font-size: clamp(1.3rem, 3vw, 2rem); line-height: 1.4; max-width: 20ch; }
+  .thesis-line .hl { background: linear-gradient(180deg, transparent 60%, color-mix(in srgb, var(--gold) 45%, transparent) 60%); }
+
+  .ask-box { background: var(--surface); border: 1.5px solid var(--jade); border-radius: var(--radius); padding: 30px 32px; margin-top: 30px; box-shadow: var(--shadow); }
+  .ask-box .amt { font-family: 'Bricolage Grotesque'; font-weight: 800; font-size: clamp(1.6rem, 3.4vw, 2.4rem); color: var(--jade); }
+
+  .footer-nav { position: fixed; bottom: 18px; left: 50%; transform: translateX(-50%); display: flex; gap: 10px; z-index: 50; }
+  @media (min-width: 900px) { .footer-nav { display: none; } }
+  .footer-nav button { font-family: 'IBM Plex Mono'; font-size: .8rem; background: var(--surface); border: 1px solid var(--line); border-radius: 999px; padding: 7px 16px; color: var(--ink); box-shadow: var(--shadow); cursor: pointer; }
+
+  ::selection { background: var(--gold); color: var(--ink); }
+</style>
+
+<div class="deck" id="deck">
+
+  <section class="slide cover" data-title="Cover">
+    <div class="slide-inner">
+      <div class="kicker">Founder deck — draft v1</div>
+      <div class="mark">Roz</div>
+      <p class="tag">Daily nutrition, reinvented for how India actually eats. A gummy wellness brand for Indian 18–35s, built on Sanode Healthcare's 60°C heat-stable pectin manufacturing.</p>
+      <div class="meta">
+        <span>Sanode Healthcare × Softpills Lifesciences</span>
+        <span>Ahmedabad, India</span>
+        <span class="mono">brand name: shortlist, not final — see appendix</span>
+      </div>
+    </div>
+    <div class="heat-strip"></div>
+  </section>
+
+  <section class="slide" data-title="The reference point">
+    <div class="slide-inner">
+      <div class="kicker">01 — the reference point</div>
+      <h2 class="title">Grüns didn't invent a nutrient.<br>It invented a <em>format</em> — and sold to Unilever for <em>$1.2B</em> in 32 months.</h2>
+      <div class="stat-row">
+        <div class="stat"><div class="v">8/day</div><div class="l">gummies replacing a greens-powder shaker</div></div>
+        <div class="stat"><div class="v">Mo. 14</div><div class="l">reached profitability, DTC-only</div></div>
+        <div class="stat"><div class="v">$45–55M</div><div class="l">total capital raised, ever</div></div>
+        <div class="stat"><div class="v">$300M+</div><div class="l">ARR before the Unilever exit</div></div>
+      </div>
+      <div class="note">Source: Unilever press release, Apr 2026; Forbes, Modern Retail, Inc — full sourcing in the companion report.</div>
+    </div>
+  </section>
+
+  <section class="slide alt" data-title="Why not literally">
+    <div class="slide-inner">
+      <div class="kicker">02 — why the literal playbook fails here</div>
+      <h2 class="title">The US recipe doesn't survive the trip to India.</h2>
+      <div class="versus">
+        <div class="side">
+          <h4>Grüns, as sold in the US</h4>
+          <div class="kv"><span class="k">Price</span><span class="v">₹150–250/day</span></div>
+          <div class="kv"><span class="k">Sugar</span><span class="v">8g added / serving</span></div>
+          <div class="kv"><span class="k">Dose</span><span class="v">8 gummies / day</span></div>
+          <div class="kv"><span class="k">Exit precedent</span><span class="v">$1.2B — real</span></div>
+        </div>
+        <div class="vs">vs</div>
+        <div class="side">
+          <h4>The Indian market, as it actually is</h4>
+          <div class="kv"><span class="k">Category ceiling</span><span class="v">₹15–35/day</span></div>
+          <div class="kv"><span class="k">Sugar tolerance</span><span class="v">237M diabetic/pre-diabetic</span></div>
+          <div class="kv"><span class="k">Category norm</span><span class="v">1–2 gummies / day</span></div>
+          <div class="kv"><span class="k">$1B exits</span><span class="v">zero, ever, in this category</span></div>
+        </div>
+      </div>
+      <div class="note">This is the credibility slide — showing we know exactly why the obvious play fails is what earns the room for the next 12.</div>
+    </div>
+  </section>
+
+  <section class="slide center" data-title="The honest bar">
+    <div class="slide-inner">
+      <div class="kicker">03 — the honest bar</div>
+      <p class="thesis-line" style="margin:0 auto;">Self-funded, India-only gets you to <span class="hl">$70–250M</span> — not the full $1B ambition. Reaching that needs <span class="hl">two stages</span>.</p>
+      <div class="grid2" style="margin-top:56px; text-align:left;">
+        <div class="card">
+          <h3>Stage 1 — prove it</h3>
+          <p style="color:var(--ink-soft); font-size:.95rem;">India-first, self-funded, capital-efficient. Years 1–2. Target: ₹5–20 Cr run-rate, retention proven, profitable-trending.</p>
+        </div>
+        <div class="card">
+          <h3>Stage 2 — scale it</h3>
+          <p style="color:var(--ink-soft); font-size:.95rem;">A funded raise (₹40–70 Cr) once retention clears. GCC export first, then possibly US/UK. This is where the full ambition lives.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="slide alt" data-title="The white space">
+    <div class="slide-inner">
+      <div class="kicker">04 — the white space</div>
+      <h2 class="title">No Indian brand owns: lifestyle, multi-benefit, daily-ritual nutrition — in gummy form — at ₹40–70/day.</h2>
+      <div class="stat-row">
+        <div class="stat"><div class="v">Supply6</div><div class="l">powder sachet, ₹68/day, backed by <b>Unilever Ventures</b> — Jul 2026</div></div>
+        <div class="stat"><div class="v">Wellbeing</div><div class="l">effervescent "Daily Greens," premium, no-discount positioning</div></div>
+        <div class="stat"><div class="v">Power Gummies</div><div class="l">gummies-as-the-category, no credibility layer — collapsed 80%, sold in distress</div></div>
+      </div>
+      <p class="lede" style="margin-top:32px; font-size:1rem;">The gap isn't the price band — it's proven. The gap isn't the "daily greens" positioning — it's proven. Nobody has put it in a gummy.</p>
+    </div>
+  </section>
+
+  <section class="slide" data-title="Product">
+    <div class="slide-inner">
+      <div class="kicker">05 — product</div>
+      <h2 class="title">Built for India from the ground up — not a Grüns clone with rupee pricing.</h2>
+      <div class="grid2">
+        <ul class="list">
+          <li><b>3–5 gummies/day</b>, not 8 — matches Indian portion norms and the cost structure the price ceiling actually supports</li>
+          <li><b>Zero / low added sugar</b> by default — category table stakes given 237M diabetic-adjacent Indians</li>
+          <li><b>60°C heat-stable pectin base</b> — the single unclaimed claim in this category, anywhere, Indian or global</li>
+          <li><b>NABL lab report</b> in every pack from day one — pre-empts the "candy dressed as vitamins" critique that hit Grüns itself</li>
+        </ul>
+        <div class="card">
+          <h3>Why heat-stability is the headline, not a footnote</h3>
+          <p style="font-size:.92rem; color:var(--ink-soft);">Gelatin gummies denature at 27–35°C. Indian summers, non-cold-chain logistics, and quick-commerce delivery bags all exceed that routinely. GCC trade press independently documents this exact failure mode at 43°C+ Gulf temperatures. Nobody else in this category has solved it.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="slide alt" data-title="Competitive proof">
+    <div class="slide-inner">
+      <div class="kicker">06 — every piece, proven separately</div>
+      <h2 class="title">The Indian market has already validated each piece of this thesis. No one has assembled the whole thing.</h2>
+      <div class="tablewrap">
+        <table>
+          <thead><tr><th>Brand</th><th>Revenue</th><th>Proves</th></tr></thead>
+          <tbody>
+            <tr><td>Mosaic Wellness</td><td class="num">₹736 Cr</td><td>Consult/retention loop drives real repeat purchase</td></tr>
+            <tr class="hi"><td>Plix</td><td class="num">₹864 Cr</td><td>One hero format + mass reach is the fastest path in-category</td></tr>
+            <tr><td>HealthKart</td><td class="num">₹1,313 Cr, profitable</td><td>House-of-brands + owned distribution is the capital-efficient path</td></tr>
+            <tr><td>Wellbeing Nutrition</td><td class="num">~₹120–170 Cr</td><td>Premium, no-discount "daily greens" positioning works in India</td></tr>
+            <tr><td>Supply6</td><td class="num">₹75 Cr ARR</td><td>The foundational-nutrition thesis, specifically — Unilever-backed</td></tr>
+            <tr><td>Power Gummies</td><td class="num">₹21 Cr → ₹3.5 Cr</td><td>Gummies alone, no system around them, fail</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <section class="slide" data-title="Go-to-market">
+    <div class="slide-inner">
+      <div class="kicker">07 — go-to-market</div>
+      <h2 class="title">D2C-first, prepaid-biased, subscription from day one. Not ad-spend-led.</h2>
+      <div class="roadmap">
+        <div class="rstep"><span class="y">Phase 0 · Mo 1–4</span><h4>Foundation</h4><p>Formulation + FSSAI Relabeller licence + NABL partner + D2C site + Amazon (0% referral fee under ₹1,000).</p></div>
+        <div class="rstep"><span class="y">Phase 1 · Mo 4–12</span><h4>Prove the loop</h4><p>One hero SKU. Nano/micro creator pipeline (₹8K–80K/deliverable) — not celebrity-tier. <b>Gate: month-2/3 retention ≥ 35%</b> before scaling any spend.</p></div>
+        <div class="rstep"><span class="y">Phase 2 · Year 2</span><h4>Add reach</h4><p>Quick commerce for trial (~₹5–10L launch cost). Second SKU (effervescent) to hedge format risk.</p></div>
+        <div class="rstep"><span class="y">Phase 3 · Mo 18–24</span><h4>Raise</h4><p>Trigger: retention proven, not a calendar date. ₹40–70 Cr, in line with what Mosaic's and Plix's own backers provided.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="slide alt" data-title="Unit economics">
+    <div class="slide-inner">
+      <div class="kicker">08 — unit economics</div>
+      <h2 class="title">Modeled, not guessed — every figure computed from a 36-month cohort simulation.</h2>
+      <div class="stat-row">
+        <div class="stat"><div class="v">₹699</div><div class="l">AOV, hero SKU</div></div>
+        <div class="stat"><div class="v">60–70%</div><div class="l">contribution margin before marketing</div></div>
+        <div class="stat"><div class="v">₹350–600</div><div class="l">CAC</div></div>
+        <div class="stat"><div class="v">2nd–3rd</div><div class="l">order to reach payback</div></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="slide" data-title="The financial model">
+    <div class="slide-inner">
+      <div class="kicker">09 — the financial model</div>
+      <h2 class="title">Self-funded capital realistically produces ₹5–20 Cr by year 3. A real proof point — not acquisition scale.</h2>
+      <div class="tablewrap">
+        <table>
+          <thead><tr><th>Capital committed</th><th class="num">Month-36 run-rate</th><th>Read</th></tr></thead>
+          <tbody>
+            <tr><td>₹2 Cr</td><td class="num">~₹5.5 Cr</td><td>Survives, grows slowly</td></tr>
+            <tr class="hi"><td>₹5 Cr</td><td class="num">₹1.5–20 Cr</td><td>Wide range — see note below</td></tr>
+            <tr><td>₹65 Cr (funded, for comparison)</td><td class="num">~₹280 Cr</td><td>Matches Plix/Mosaic-style trajectories</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p class="note" style="margin-top:28px; max-width:72ch;"><b>The ₹1.5–20 Cr range at ₹5 Cr capital is the single most important number in this deck.</b> The spread comes entirely from one assumption: US-style subscription retention (~3.5 orders/yr) vs. OZiva's own founder-disclosed Indian benchmark ("even scaled-up brands see a maximum of two boxes a year"). Retention — not CAC, not price — decides which business we're actually running. That's why Phase 1's retention gate exists.</p>
+    </div>
+  </section>
+
+  <section class="slide alt" data-title="Risks">
+    <div class="slide-inner">
+      <div class="kicker">10 — risks, ranked, unprompted</div>
+      <h2 class="title">Naming our own risks first is worth more than any growth number on this slide.</h2>
+      <div class="risk-list">
+        <div class="risk-item"><span class="n"></span><p><b>Price ceiling.</b> Need 6–10x Grüns' customer count for equivalent revenue — the price gap doesn't close any other way.</p></div>
+        <div class="risk-item"><span class="n"></span><p><b>Retention is the whole game.</b> See Slide 09 — everything else is secondary until this number is proven.</p></div>
+        <div class="risk-item"><span class="n"></span><p><b>Claims discipline.</b> Nutraceuticals were 52% of FY26 F&amp;B ad violations flagged by ASCI. No disease-adjacent language, ever.</p></div>
+        <div class="risk-item"><span class="n"></span><p><b>Fast followers.</b> HUL, Marico, USV, Dabur can all launch a competing pectin gummy quickly — heat-stability and real clinical evidence are the defensible moats, not the format itself.</p></div>
+        <div class="risk-item"><span class="n"></span><p><b>Quick-commerce dependence.</b> 30–45% all-in take; entry alone costs ₹3.75–6L before the first sale. Trial channel, not the profit engine.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="slide center" data-title="The ask">
+    <div class="slide-inner">
+      <div class="kicker">11 — the ask</div>
+      <h2 class="title">Fund Phase 0–1 to prove the number that decides everything else.</h2>
+      <div class="ask-box" style="text-align:left; max-width:640px; margin-inline:auto;">
+        <div class="amt">₹2–5 Cr</div>
+        <p style="margin:10px 0 0; color:var(--ink-soft); font-size:.95rem;">Self-funded / Sanode-backed, 12–18 months, to prove month-2/3 retention ≥ 35% and reach a ₹5–20 Cr run-rate.</p>
+        <div style="margin-top:18px; border-top:1px dashed var(--line); padding-top:16px; font-size:.9rem; color:var(--stone);">Then: a ₹40–70 Cr raise once that number clears — funding Phase 2–3 and the export-led path to the full ambition.</div>
+      </div>
+    </div>
+  </section>
+
+  <section class="slide alt" data-title="Roadmap">
+    <div class="slide-inner">
+      <div class="kicker">12 — roadmap</div>
+      <h2 class="title">Five years, honestly sequenced.</h2>
+      <div class="roadmap">
+        <div class="rstep"><span class="y">Year 1</span><h4>Launch &amp; prove retention</h4><p>One hero SKU, D2C + Amazon, nano/micro creator pipeline.</p></div>
+        <div class="rstep"><span class="y">Year 2</span><h4>Add reach</h4><p>Quick commerce, second SKU, raise triggered by proof — not the calendar.</p></div>
+        <div class="rstep"><span class="y">Year 3</span><h4>Retail expansion</h4><p>Pharmacy/modern trade. ₹150–400 Cr trajectory, now funded.</p></div>
+        <div class="rstep"><span class="y">Year 3+</span><h4>Export</h4><p>GCC first — the heat-stability wedge is real there. Then, possibly, US/UK DTC.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="slide" data-title="Close">
+    <div class="slide-inner cover">
+      <div class="kicker">Thank you</div>
+      <h2 class="title" style="font-size:clamp(2rem,5vw,3.4rem);">Not the Grüns story.<br>The <em>India</em> story, told honestly.</h2>
+      <p class="lede">Full research, computed model, and complete source list: companion report and appendix, available on request.</p>
+    </div>
+    <div class="heat-strip"></div>
+  </section>
+
+</div>
+
+<div class="rail" id="rail"></div>
+<div class="counter" id="counter">01 / 13</div>
+<div class="brandmark">Roz</div>
+<div class="footer-nav"><button id="prevBtn" aria-label="Previous slide">←</button><button id="nextBtn" aria-label="Next slide">→</button></div>
+
+<script>
+  const slides = Array.from(document.querySelectorAll('.slide'));
+  const rail = document.getElementById('rail');
+  const counter = document.getElementById('counter');
+  slides.forEach((s, i) => {
+    const b = document.createElement('button');
+    b.setAttribute('aria-label', 'Go to slide ' + (i + 1) + ': ' + (s.dataset.title || ''));
+    b.addEventListener('click', () => s.scrollIntoView({ behavior: 'smooth' }));
+    rail.appendChild(b);
+  });
+  const railBtns = Array.from(rail.children);
+
+  function currentIndex() {
+    let idx = 0, best = Infinity;
+    slides.forEach((s, i) => {
+      const d = Math.abs(s.getBoundingClientRect().top);
+      if (d < best) { best = d; idx = i; }
+    });
+    return idx;
+  }
+  function updateUI() {
+    const idx = currentIndex();
+    railBtns.forEach((b, i) => b.classList.toggle('active', i === idx));
+    counter.textContent = String(idx + 1).padStart(2, '0') + ' / ' + String(slides.length).padStart(2, '0');
+  }
+  window.addEventListener('scroll', () => { window.requestAnimationFrame(updateUI); }, { passive: true });
+  updateUI();
+
+  function go(delta) {
+    const idx = currentIndex();
+    const next = Math.min(Math.max(idx + delta, 0), slides.length - 1);
+    slides[next].scrollIntoView({ behavior: 'smooth' });
+  }
+  document.getElementById('prevBtn').addEventListener('click', () => go(-1));
+  document.getElementById('nextBtn').addEventListener('click', () => go(1));
+  window.addEventListener('keydown', (e) => {
+    if (e.key === 'ArrowDown' || e.key === 'ArrowRight' || e.key === 'PageDown') { e.preventDefault(); go(1); }
+    if (e.key === 'ArrowUp' || e.key === 'ArrowLeft' || e.key === 'PageUp') { e.preventDefault(); go(-1); }
+  });
+</script>
