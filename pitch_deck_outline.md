@@ -6,7 +6,7 @@
 
 # Slide 1 — Title
 
-**[Brand name — shortlist: tryroz / eathara]**
+**[Brand name — NOT YET FINAL. "Aureliz" is confirmed dead (it's the live brand of an operating Singapore AI company — drop it). Of the remaining 13 Sep shortlist (Orelius / Bite It / Eat Roz / Just Chew), only Eat Roz's .com domain is free, and even that sits close to an existing Indian snack brand ("Rozeat"). Realistically this shortlist needs another round. Do not finalize branding/packaging until a real availability + trademark check is done. See `strategy.md` Part I3.]**
 *Daily nutrition, reinvented for how India actually eats.*
 
 Sanode Healthcare × Softpills Lifesciences — Ahmedabad
@@ -59,8 +59,9 @@ Sanode Healthcare × Softpills Lifesciences — Ahmedabad
 - Supply6 (powder sachet) and Wellbeing Nutrition (effervescent) occupy this price/positioning band — just not in gummies
 - Supply6 raised its round from **Unilever Ventures** in July 2026 — the same Unilever that bought Grüns
 - The one Indian brand that tried gummies-as-the-category (Power Gummies) collapsed 80% and sold its assets in distress — because it had no credibility layer, not because gummies don't work
+- **Correction (13 Sep): there IS a live direct competitor in this exact space — BiteBella** (Surat, Gujarat), already selling "Super Green Gummies" at ₹449 with 3,703 reviews at 4.8/5, founded by three doctors. Not a blue ocean — plan and pitch as direct positioning against a real, credible player, the same way this deck already positions against Man Matters/Siens.
 
-*Speaker note: Unilever Ventures backing Supply6 is your single best borrowed-credibility data point. Let it land.*
+*Speaker note: Unilever Ventures backing Supply6 is still your best borrowed-credibility data point — but don't claim "no competitor" anymore. BiteBella is real and needs to be named and addressed directly if asked.*
 
 ---
 
@@ -72,8 +73,9 @@ Sanode Healthcare × Softpills Lifesciences — Ahmedabad
 - Zero/low added sugar by default — category table stakes, not a differentiator to skip
 - **60°C heat-stable pectin base — the single unclaimed claim in this entire category**, Indian or global
 - NABL lab report in every pack, from day one — pre-empts the "candy dressed as vitamins" critique that hit Grüns itself
+- **Critical update (13 Sep): "genuinely all-in-one" and "3 gummies" are in tension.** AG1's own CEO stated publicly their full formula needs 15 gummies — their simplified version still needs 8. State explicitly what's included and what's deliberately cut for a 3-gummy format; don't market "all-in-one" without naming the tradeoff, or this claim will get challenged by anyone who knows the category.
 
-*Speaker note: the heat-stability claim is real and independently evidenced (GCC trade press documents gelatin gummies failing above 27-35°C against 43°C+ Gulf summer temps) — use it as the headline technical differentiator, every time.*
+*Speaker note: the heat-stability claim is real and independently evidenced (GCC trade press documents gelatin gummies failing above 27-35°C against 43°C+ Gulf summer temps) — use it as the headline technical differentiator, every time. The ingredient-list tradeoff above is now the single most important thing to have a crisp answer for if asked.*
 
 ---
 
@@ -113,6 +115,7 @@ Sits between Kapiva's Ayurvedic-heritage tone and Wellbeing's design-led premium
 | Wellbeing Nutrition | Premium, no-discount, "daily greens" positioning works in India |
 | Supply6 | The foundational-nutrition thesis specifically, Unilever-backed |
 | Power Gummies (collapsed) | Gummies alone, with no system around them, fail |
+| **BiteBella (Surat, Gujarat)** | **A real, live direct competitor already exists — doctor-founded, 4.5-4.9★ across 1,200-5,200+ reviews per SKU, already runs two-way AM/PM bundles** |
 
 *Speaker note: this slide does double duty — competitive landscape AND validation that every piece of the strategy has independent proof.*
 
@@ -120,7 +123,9 @@ Sits between Kapiva's Ayurvedic-heritage tone and Wellbeing's design-led premium
 
 # Slide 10 — Go-to-market
 
-**D2C-first, prepaid-biased, subscription from day one — not ad-spend-led.**
+**D2C-first, prepaid-biased — not ad-spend-led.**
+
+*Note (13 Sep): the actual founders decided in their own strategy meeting to hold subscription back at launch — they weren't confident the Indian audience is ready for recurring billing in this category yet. That's a reasonable, evidence-consistent call (this report has separately flagged that "subscribe and save" isn't a proven Indian retention mechanic on its own — see the LinkedIn operator quote in the main report's most recent research round). Update this slide's headline to drop "subscription from day one" and treat subscription as something to introduce once the product itself proves repeat purchase, not a launch-day requirement.*
 
 1. **Phase 0 (Mo 1–4):** Formulation + FSSAI Relabeller licence + NABL partner + D2C site + Amazon (0% referral fee under ₹1,000)
 2. **Phase 1 (Mo 4–12):** Prove retention ≥35% at month 2–3 before scaling spend. One hero SKU. Nano/micro creator pipeline (₹8K–80K/deliverable), not celebrity-tier.

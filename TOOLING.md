@@ -61,6 +61,15 @@ If `make-pdf` ever isn't reachable from a given environment, `pandoc file.md -o 
 
 ---
 
+## PROVEN IN PRODUCTION: the Composio + Tavily combo, used together, is the real 10x upgrade
+
+*Not theoretical anymore — this was actually used for a real, high-stakes research task (13 Sep 2026: responding to an internal founder meeting, verifying five brand names, finding an unlisted competitor, and pinning down a load-bearing product-feasibility claim). Recording what actually worked so it's used this way by default going forward, in either Claude Code or Codex.*
+
+- **Composio's `COMPOSIO_SEARCH_WEB`** (Exa-backed) is what surfaced the single most important finding of that session — AG1 CEO Kat Cole's on-record "you can't put AG1, as it is, in a gummy" quote, with full context (15-gummy figure, the "Essentials" simplification, still needing 8 gummies) — from a citation trail of dated LinkedIn posts a plain search would likely have missed or under-sourced. It also found BiteBella (a real, reviewed, live competitor the founders didn't know existed) directly from a garbled brand-name guess ("Belly Bite or Bite Belly"), and pulled genuinely current (2026) LinkedIn commentary from Indian D2C operators on exactly the topics being researched — this is the single best source type for "what does someone actually building this right now think" that nothing else in this toolset replicates.
+- **`COMPOSIO_SEARCH_FETCH_URL_CONTENT`** pulled a competitor's full live site (BiteBella) in one call — pricing, review counts, founder bios, customer testimonials verbatim — turning a "go look at their website" task into one tool call.
+- **Tavily's `tvly` CLI is the better choice specifically for Reddit** — confirmed again in this session (see the corrected finding below the domain-availability section) and used again productively here for cross-checking claims Composio's Exa backend didn't independently confirm.
+- **Direct verification beats trusting either tool's synthesis.** The transcript this research responded to claimed five brand names had "domains and trademarks available." A live `curl`/RDAP check (not a search tool at all) found four of the five were actually registered. **Lesson: for anything with a concrete, checkable state (domain availability, a specific fact, a claimed data point), verify directly — a search tool's synthesized answer is not a substitute for checking the actual thing.** This is the same discipline that caught the Sanode "20 countries" fabrication earlier in this project — it's a repeatable pattern, not a one-off catch.
+
 ## RESOLVED: Meta Ad Library API is a dead end for Indian commercial-ad monitoring — use the website instead
 
 *This was genuinely uncertain earlier in this project (two blog sources disagreed on whether commercial-brand monitoring was even a valid use case). It's now resolved with a live app-creation attempt plus Meta's own official documentation at facebook.com/ads/library/api — not another blog. Don't re-litigate this.*
