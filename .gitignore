@@ -4,8 +4,10 @@
 .gstack/
 .superpowers/
 .claude/
+.claude-flow/
 .codex/
 .cache/
+*.db
 tmp/
 temp/
 
