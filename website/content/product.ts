@@ -34,7 +34,7 @@ type Product = {
 export const product: Product = {
   name: "Eatroz Magnesium Gummies",
   eyebrow: "MAGNESIUM, FULLY NAMED",
-  headline: "Sleepmaxxing, done properly.",
+  headline: "Your evening ritual, rethought.",
   launchLabel: "DROP 01",
   price: { status: "verification_pending", value: null },
   formulaIntent: ["Glycinate", "Citrate", "Malate", "Taurate"],

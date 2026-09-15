@@ -3,4 +3,6 @@ node_modules/
 coverage/
 playwright-report/
 test-results/
+AGENTS.md
+CLAUDE.md
 *.tsbuildinfo
