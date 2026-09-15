@@ -3,6 +3,7 @@
 # Local tool/runtime state
 .gstack/
 .superpowers/
+.worktrees/
 .claude/
 .claude-flow/
 .codex/
