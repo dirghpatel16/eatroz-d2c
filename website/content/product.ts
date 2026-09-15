@@ -25,10 +25,9 @@ type Product = {
   formulationPendingCopy: string;
   media: {
     heroPoster: string;
-    heroVideo: string;
     pouch: string;
     gummy: string;
-    ritual: string;
+    detail: string;
   };
 };
 
@@ -55,9 +54,8 @@ export const product: Product = {
     "Final formulation details will be published before orders open.",
   media: {
     heroPoster: "/media/eatroz/hero-four-forms-fall-poster.webp",
-    heroVideo: "/media/eatroz/hero-four-forms-fall.mp4",
     pouch: "/media/eatroz/pouch-beauty.webp",
     gummy: "/media/eatroz/gummy-macro.webp",
-    ritual: "/media/eatroz/ritual-evening.webp",
+    detail: "/media/eatroz/packaging-detail.webp",
   },
 } as const;
