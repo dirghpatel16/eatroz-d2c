@@ -1,7 +1,7 @@
 # Seed.com Forensic Design System Anatomy & Implementation Blueprint
 
 *Extracted directly from live [Seed.com](https://seed.com) via Playwright on 18 Sep 2026.*  
-*All extracted raw assets, fonts, SVGs, screenshots, and Figma layer trees are stored in [`website/extracted-seed/`](file:///Users/dirghpatel/Documents/india-gummy-d2c/website/extracted-seed).*
+*All extracted raw assets, fonts, SVGs, screenshots, and Figma layer trees are stored in [`assets/extracted-seed/`](../assets/extracted-seed).*
 
 ---
 
@@ -35,7 +35,7 @@ These values were captured directly from Seed.com's computed stylesheet:
 
 ## 3. Typography Hierarchy
 
-Extracted font files saved in: [`website/extracted-seed/assets/fonts/`](file:///Users/dirghpatel/Documents/india-gummy-d2c/website/extracted-seed/assets/fonts)
+Extracted font files saved in: [`assets/extracted-seed/assets/fonts/`](../assets/extracted-seed/assets/fonts)
 
 * **Headline Variable Serif/Sans:**
   - Seed uses *Seed Sans* (custom Dinamo cut).
@@ -61,31 +61,24 @@ Extracted font files saved in: [`website/extracted-seed/assets/fonts/`](file:///
    - **Phase 3 (60% - 85%):** Radial delivery bloom (molecular nutrients spreading outward to organ systems).
    - **Phase 4 (85% - 100%):** Clinical endpoint convergence and transition into the purchase dock.
 
-### Eatroz Implementation:
-Implemented in [`website/components/motion/scrollytelling-canvas.tsx`](file:///Users/dirghpatel/Documents/india-gummy-d2c/website/components/motion/scrollytelling-canvas.tsx):
-- GSAP `ScrollTrigger` pinned canvas spanning `240vh`.
-- Animated 4-form chelation bloom (Bisglycinate, Malate, Citrate, Taurate).
-- Interactive SVG Ring Dial showing real-time 68% ICMR RDA bioavailability counter.
+### Eatroz Execution:
+- 100% Matte Stand-Up Resealable Pouch architecture.
+- 4-form chelation (Bisglycinate, Malate, Citrate, Taurate).
+- Direct D2C purchase experience following `D2C-POUCH-STOREFRONT-SPEC.md`.
 
 ---
 
 ## 5. Component Breakdown & Scaffolding Checklist
 
-### 1. Sticky Purchase Dock (`PurchaseDock`)
-- **Seed Pattern:** The user never has to search for the "Buy" button. A fixed dock sits at the bottom of the viewport with an interactive choice between a 30-day ritual and a 90-day kit.
-- **Eatroz Execution:** [purchase-dock.tsx](file:///Users/dirghpatel/Documents/india-gummy-d2c/website/components/commerce/purchase-dock.tsx) with toggle for reusable amber glass apothecary jar + compostable refill pouches.
+### 1. Split PDP Buy Box & Pouch Gallery
+- **D2C Pattern:** Classic 2-column split hero with 5-slide pouch gallery and tiered volume bundle cards (1x, 2x, 3x).
+- **Eatroz Execution:** Stand-up resealable pouch format with free shipping meter and Indian pincode delivery estimator.
 
-### 2. Clinical Study Ledger (`ClinicalLedger`)
-- **Seed Pattern:** Clear 1px hairline border grid displaying peer-reviewed endpoints rather than vague testimonials.
-- **Eatroz Execution:** [clinical-ledger.tsx](file:///Users/dirghpatel/Documents/india-gummy-d2c/website/components/proof/clinical-ledger.tsx) with -15m sleep latency, +34m deep non-REM delta wave sleep, and 0g sugar.
+### 2. Sensory & Flavor Profile
+- **D2C Pattern:** Delicious European Montmorency tart cherry chew, 0g sugar (monk fruit sweetened), and 100% heat-stable citrus pectin (never melts in Indian transit).
 
-### 3. Radical Comparison Matrix (`OxideProof`)
-- **Seed Pattern:** Direct contrast against inferior mass-market supplements (synthetic fillers vs. micro-encapsulation).
-- **Eatroz Execution:** [oxide-proof.tsx](file:///Users/dirghpatel/Documents/india-gummy-d2c/website/components/proof/oxide-proof.tsx) contrasting 4 Chelation Forms vs. 4% bioavailable Magnesium Oxide laxative.
-
-### 4. Forensic Batch Transparency (`CoaModal`)
-- **Seed/Cymbiotika Pattern:** Live batch verification modal displaying third-party lab assay certificates of analysis.
-- **Eatroz Execution:** [coa-modal.tsx](file:///Users/dirghpatel/Documents/india-gummy-d2c/website/components/transparency/coa-modal.tsx) for NABL-accredited laboratory test for Batch `ETZ-01-A26`.
+### 3. Clean Comparison Matrix
+- **D2C Pattern:** Direct contrast against cheap store-bought alternatives (4 bioavailable chelates vs. cheap 4% absorbed magnesium oxide).
 
 ---
 
