@@ -1,0 +1,60 @@
+{
+  "provisional": true,
+  "identity": "Original Eatroz / Enhanced Pouch 01",
+  "generator": "Runway",
+  "use": "Concept presentation only until packaging, formula and statutory review",
+  "motionStrategy": "browser-native interaction from original still assets",
+  "retiredFromProductionRoutes": [
+    "hero-clinical-runway.jpg",
+    "hero-four-forms-fall-poster.webp",
+    "pouch-beauty.webp",
+    "gummy-macro.webp",
+    "packaging-detail.webp",
+    "mineral-vessel-master.png",
+    "mineral-hero-wide.png",
+    "mineral-ritual-night.png",
+    "mineral-vessel-cutout.png"
+  ],
+  "assets": [
+    {
+      "file": "eatroz-pouch-master.png",
+      "role": "master pouch identity",
+      "taskId": "7080c283-f79a-457a-b70d-2b8b8f5e03a8",
+      "sha256": "d97b710a51f4dd74391621eacfb99266b4b2560bd31ea8dfd1929c3f45d7501d",
+      "width": 1792,
+      "height": 2400
+    },
+    {
+      "file": "eatroz-pouch-hero.png",
+      "role": "cinematic pouch website hero",
+      "taskId": "3d217625-228e-4164-8ca7-e7fb300faa36",
+      "sha256": "87805f1201edf85d01aa26dc24bd88e95f82fff6347ffaa7510298326e3ee52c",
+      "width": 2752,
+      "height": 1536
+    },
+    {
+      "file": "eatroz-pouch-ritual.png",
+      "role": "India pouch evening ritual",
+      "taskId": "53456286-f7f4-4ea5-8a7a-ede5c0b6ab37",
+      "sha256": "8de7b60c6a9168de31b25a4c8643d4e36bdc4c2de64badd3ffa0ab7ccd984f4d",
+      "width": 1792,
+      "height": 2400
+    },
+    {
+      "file": "eatroz-pouch-cutout.png",
+      "role": "interactive transparent pouch cutout",
+      "taskId": "457e8f61-493f-47e2-84f5-bcaa26ed9a27",
+      "sha256": "a9049319b9e83e2b9ec94fc2dccb527dc0df9b6aa2164cec49bd24d65678b704",
+      "width": 1792,
+      "height": 2400
+    },
+    {
+      "file": "mineral-gummy-macro.png",
+      "role": "gummy material macro",
+      "taskId": "1893d98c-cb08-4d8d-9d6c-8057f9dbba19",
+      "sha256": "df3e6b10130e2805373bfc6e29fba5a888111e6b0948c1235b053e24ef843224",
+      "width": 2048,
+      "height": 2048
+    }
+  ]
+}

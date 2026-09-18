@@ -1,6 +1,0 @@
-import { product } from "@/content/product";
-export function OxideProof() {
-  const oxide = product.oxide.status === "verified" ? `${product.oxide.value}%` : "PENDING";
-  const rda = product.percentRda.status === "verified" ? `${product.percentRda.value}%` : "PENDING";
-  return <section id="proof" className="proof section" aria-labelledby="proof-title"><div className="wrap"><p className="eyebrow">THE RECEIPTS, NOT THE RHETORIC</p><h2 id="proof-title" className="display">No decorative numbers.</h2><div className="proof__grid"><article><span className="data">MAGNESIUM OXIDE</span><strong className="display">{oxide}</strong><p>Shown only after the final formulation is verified.</p></article><article><span className="data">ELEMENTAL MAGNESIUM</span><strong className="display">{product.elementalMagnesium.status === "verified" ? `${product.elementalMagnesium.value} mg` : "PENDING"}</strong><p>The amount that belongs on the approved label.</p></article><article><span className="data">% RDA</span><strong className="display">{rda}</strong><p>Published with its exact serving basis.</p></article></div><p className="proof__source">Comparative absorption or efficacy graphics stay hidden until an approved source and the final formulation are attached.</p></div></section>;
-}

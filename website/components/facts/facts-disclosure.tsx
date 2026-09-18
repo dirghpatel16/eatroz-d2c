@@ -1,6 +1,0 @@
-import { product } from "@/content/product";
-export function FactsDisclosure() {
-  const pending = product.formulationPendingCopy;
-  const forms = product.chemicalForms.status === "verified" ? product.chemicalForms.value.join(" · ") : `${product.formulaIntent.join(" · ")} — intent only`;
-  return <section className="facts section" aria-labelledby="facts-title"><div className="wrap facts__grid"><div><p className="eyebrow">THE LABEL, OPEN</p><h2 id="facts-title" className="display">Nothing important behind a hover.</h2><p className="lede">The final panel will stay readable on-page, with the same information hierarchy as the physical pack.</p></div><details open><summary className="data">SUPPLEMENT FACTS STATUS <span>−</span></summary><dl><div><dt>Intended forms</dt><dd>{forms}</dd></div><div><dt>Magnesium oxide</dt><dd>{product.oxide.status === "verified" ? `${product.oxide.value}%` : pending}</dd></div><div><dt>Elemental magnesium</dt><dd>{product.elementalMagnesium.status === "verified" ? `${product.elementalMagnesium.value} mg` : pending}</dd></div><div><dt>% RDA</dt><dd>{product.percentRda.status === "verified" ? `${product.percentRda.value}%` : pending}</dd></div><div><dt>Serving count</dt><dd>{product.servingCount.status === "verified" ? product.servingCount.value : pending}</dd></div></dl></details></div></section>;
-}

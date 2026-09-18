@@ -1,0 +1,335 @@
+{
+  "name": "body",
+  "type": "FRAME",
+  "x": 0,
+  "y": 0,
+  "width": 1440,
+  "height": 900,
+  "fills": [],
+  "strokes": [],
+  "cornerRadius": 0,
+  "layoutMode": "VERTICAL",
+  "itemSpacing": 0,
+  "paddingTop": 0,
+  "paddingBottom": 0,
+  "paddingLeft": 0,
+  "paddingRight": 0,
+  "children": [
+    {
+      "name": "div.main-wrapper",
+      "type": "FRAME",
+      "x": 0,
+      "y": 0,
+      "width": 1440,
+      "height": 831,
+      "fills": [],
+      "strokes": [],
+      "cornerRadius": 0,
+      "layoutMode": "VERTICAL",
+      "itemSpacing": 0,
+      "paddingTop": 0,
+      "paddingBottom": 0,
+      "paddingLeft": 0,
+      "paddingRight": 0,
+      "children": [
+        {
+          "name": "div.main-content",
+          "type": "FRAME",
+          "x": 240,
+          "y": 128,
+          "width": 960,
+          "height": 176,
+          "fills": [],
+          "strokes": [],
+          "cornerRadius": 0,
+          "children": [
+            {
+              "name": "div.lpdkQ3",
+              "type": "FRAME",
+              "x": 272,
+              "y": 128,
+              "width": 896,
+              "height": 50,
+              "fills": [],
+              "strokes": [],
+              "cornerRadius": 0,
+              "layoutMode": "HORIZONTAL",
+              "itemSpacing": 16,
+              "paddingTop": 0,
+              "paddingBottom": 0,
+              "paddingLeft": 0,
+              "paddingRight": 0,
+              "children": [
+                {
+                  "name": "h1",
+                  "type": "TEXT",
+                  "x": 272,
+                  "y": 128,
+                  "width": 175,
+                  "height": 50,
+                  "fills": [
+                    {
+                      "type": "SOLID",
+                      "color": {
+                        "r": 0.19215686274509805,
+                        "g": 0.19215686274509805,
+                        "b": 0.19215686274509805
+                      },
+                      "opacity": 1
+                    }
+                  ],
+                  "strokes": [],
+                  "cornerRadius": 0,
+                  "characters": "seed.com",
+                  "fontSize": 40,
+                  "fontFamily": "system-ui",
+                  "fontWeight": 600
+                }
+              ]
+            },
+            {
+              "name": "h2#jddkS1",
+              "type": "TEXT",
+              "x": 272,
+              "y": 186,
+              "width": 896,
+              "height": 30,
+              "fills": [
+                {
+                  "type": "SOLID",
+                  "color": {
+                    "r": 0.19215686274509805,
+                    "g": 0.19215686274509805,
+                    "b": 0.19215686274509805
+                  },
+                  "opacity": 1
+                }
+              ],
+              "strokes": [],
+              "cornerRadius": 0,
+              "characters": "Performing security verification",
+              "fontSize": 24,
+              "fontFamily": "system-ui",
+              "fontWeight": 600
+            },
+            {
+              "name": "p#QeINV1",
+              "type": "TEXT",
+              "x": 272,
+              "y": 224,
+              "width": 896,
+              "height": 48,
+              "fills": [
+                {
+                  "type": "SOLID",
+                  "color": {
+                    "r": 0.19215686274509805,
+                    "g": 0.19215686274509805,
+                    "b": 0.19215686274509805
+                  },
+                  "opacity": 1
+                }
+              ],
+              "strokes": [],
+              "cornerRadius": 0,
+              "characters": "This website uses a security service to protect against malicious bots. This page is displayed while the website verifies you are not a bot.",
+              "fontSize": 16,
+              "fontFamily": "system-ui",
+              "fontWeight": 400
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "div.footer",
+      "type": "FRAME",
+      "x": 240,
+      "y": 831,
+      "width": 960,
+      "height": 69,
+      "fills": [],
+      "strokes": [],
+      "cornerRadius": 0,
+      "children": [
+        {
+          "name": "div.footer-inner",
+          "type": "FRAME",
+          "x": 272,
+          "y": 831,
+          "width": 896,
+          "height": 69,
+          "fills": [],
+          "strokes": [],
+          "cornerRadius": 0,
+          "layoutMode": "HORIZONTAL",
+          "itemSpacing": 0,
+          "paddingTop": 16,
+          "paddingBottom": 16,
+          "paddingLeft": 0,
+          "paddingRight": 0,
+          "children": [
+            {
+              "name": "div.footer-wrapper",
+              "type": "FRAME",
+              "x": 577,
+              "y": 848,
+              "width": 285,
+              "height": 36,
+              "fills": [],
+              "strokes": [],
+              "cornerRadius": 0,
+              "children": [
+                {
+                  "name": "div",
+                  "type": "FRAME",
+                  "x": 577,
+                  "y": 848,
+                  "width": 285,
+                  "height": 18,
+                  "fills": [],
+                  "strokes": [],
+                  "cornerRadius": 0,
+                  "children": [
+                    {
+                      "name": "div.ray-id",
+                      "type": "FRAME",
+                      "x": 577,
+                      "y": 848,
+                      "width": 285,
+                      "height": 18,
+                      "fills": [],
+                      "strokes": [],
+                      "cornerRadius": 0,
+                      "children": [
+                        {
+                          "name": "code",
+                          "type": "TEXT",
+                          "x": 684,
+                          "y": 850,
+                          "width": 115,
+                          "height": 14,
+                          "fills": [
+                            {
+                              "type": "SOLID",
+                              "color": {
+                                "r": 0.19215686274509805,
+                                "g": 0.19215686274509805,
+                                "b": 0.19215686274509805
+                              },
+                              "opacity": 1
+                            }
+                          ],
+                          "strokes": [],
+                          "cornerRadius": 0,
+                          "characters": "a3d006f86bb07b7a",
+                          "fontSize": 12,
+                          "fontFamily": "monospace",
+                          "fontWeight": 400
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "div.footer-link-wrapper",
+                  "type": "FRAME",
+                  "x": 577,
+                  "y": 866,
+                  "width": 285,
+                  "height": 18,
+                  "fills": [],
+                  "strokes": [],
+                  "cornerRadius": 0,
+                  "layoutMode": "HORIZONTAL",
+                  "itemSpacing": 8,
+                  "paddingTop": 0,
+                  "paddingBottom": 0,
+                  "paddingLeft": 0,
+                  "paddingRight": 0,
+                  "children": [
+                    {
+                      "name": "span.footer-text",
+                      "type": "FRAME",
+                      "x": 577,
+                      "y": 866,
+                      "width": 226,
+                      "height": 18,
+                      "fills": [],
+                      "strokes": [],
+                      "cornerRadius": 0,
+                      "children": [
+                        {
+                          "name": "a",
+                          "type": "TEXT",
+                          "x": 745,
+                          "y": 866,
+                          "width": 58,
+                          "height": 18,
+                          "fills": [
+                            {
+                              "type": "SOLID",
+                              "color": {
+                                "r": 0,
+                                "g": 0,
+                                "b": 0.9333333333333333
+                              },
+                              "opacity": 1
+                            }
+                          ],
+                          "strokes": [],
+                          "cornerRadius": 0,
+                          "characters": "Cloudflare",
+                          "fontSize": 12,
+                          "fontFamily": "system-ui",
+                          "fontWeight": 400
+                        }
+                      ]
+                    },
+                    {
+                      "name": "span.footer-divider",
+                      "type": "FRAME",
+                      "x": 811,
+                      "y": 869,
+                      "width": 2,
+                      "height": 12,
+                      "fills": [],
+                      "strokes": [],
+                      "cornerRadius": 0,
+                      "children": []
+                    },
+                    {
+                      "name": "a.footer-text",
+                      "type": "TEXT",
+                      "x": 821,
+                      "y": 866,
+                      "width": 41,
+                      "height": 18,
+                      "fills": [
+                        {
+                          "type": "SOLID",
+                          "color": {
+                            "r": 0,
+                            "g": 0,
+                            "b": 0.9333333333333333
+                          },
+                          "opacity": 1
+                        }
+                      ],
+                      "strokes": [],
+                      "cornerRadius": 0,
+                      "characters": "Privacy",
+                      "fontSize": 12,
+                      "fontFamily": "system-ui",
+                      "fontWeight": 400
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

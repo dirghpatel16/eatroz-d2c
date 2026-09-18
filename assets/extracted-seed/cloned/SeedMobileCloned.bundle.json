@@ -1,0 +1,6 @@
+{
+  "instruction": "You are a world-class frontend engineer specializing in React, Next.js, and Tailwind CSS.\nLook at this website screenshot and reverse-engineer it into a clean, modern, responsive React component.\nRequirements:\n1. Use semantic HTML (header, main, section, nav, footer, button, etc.).\n2. Use modern Tailwind CSS classes for layout, typography, colors, padding, and subtle animations.\n3. Match the visual hierarchy, font weights, and spacing as closely as possible.\n4. If there are SVG icons or logos in the image, represent them with clean inline SVGs or Lucide-style vectors.\n5. Return ONLY the complete, production-ready React component code inside a single tsx codeblock. No conversational preamble.",
+  "imageMime": "image/png",
+  "imageBase64Length": 8744508,
+  "targetScreenshot": "/Users/dirghpatel/Documents/india-gummy-d2c/website/extracted-seed/screenshots/mobile_390px.png"
+}
