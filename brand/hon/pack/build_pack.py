@@ -998,10 +998,69 @@ def inside_view(d, seed=4):
             + "".join(o) + "</svg>\n")
 
 
+# ---------------------------------------------------------------- US-MIX FRONT (not a clone of any one brand)
+# Devices, each from a different US reference:
+#   deep flood + off-white label panel .......... DIOME (colour as signature, away from the green cliché)
+#   traceability rows (form · mg · supplier) .... Ritual ("Made Traceable")
+#   serving count as a headline number .......... Momentous (pouch = focus; servings lead)
+#   scan-for-the-batch-lab-report QR ............ 2026 category shift to verification (counterfeit fear)
+#   generous negative space, few elements ....... Seed
+LABEL, LABEL_INK, GREEN_O = "#F7F4EF", "#1D1A16", "#7EBC57"
+
+US_INFO = {
+    "us-cherry": ("Cherry", "#5E0B24", "Warmest of the four; the tart-cherry cue does the flavour work."),
+    "us-indigo": ("Indigo", "#16213E", "Reads 'night' fastest; best for the Sleep hero SKU."),
+    "us-onyx": ("Onyx", "#121212", "Most premium and gender-neutral; strongest in a gifting box."),
+    "us-terracotta": ("Terracotta", "#8F4230", "Warm and Indian-familiar; stands out against a shelf of blues and whites."),
+}
+for _k, (_n, _g, _why) in US_INFO.items():
+    _t = _theme("US-mix " + _n, _g, LABEL)
+    _t.update(o=GREEN_O, logo="v2")
+    THEMES[_k] = _t
+
+
+def front_us(t, P):
+    """Deep flood, off-white label panel, traceability rows, servings headline, verification QR."""
+    W, H = DATA["pouch_mm"]
+    g = t["flood"]
+    ink, soft = LABEL_INK, _blend(LABEL_INK, LABEL, 0.45)
+    o = [f'<rect width="{W}" height="{H}" fill="{g}"/>',
+         text(W / 2, 43, "HIGH ON NUTRITION", 4.2, "hp-bb", LABEL, "middle", ls="1.4", extra=' fill-opacity="0.8"'),
+         f'<rect x="14" y="48" width="{W - 28}" height="166" rx="6" fill="{LABEL}"/>']
+    lg, lw = logo2(24, 60, 30, ink, GREEN_O, P)
+    o += [lg,
+          text(24 + lw + 10, 70, DATA["category"], 4.3, "hp-bb", ink, ls="0.4"),
+          text(24 + lw + 10, 77, "ADULT 18+ · 30-NIGHT PACK", 4.3, "hp-b", soft, ls="0.3"),
+          f'<line x1="24" y1="88" x2="{W - 24}" y2="88" stroke="{ink}" stroke-width="0.3"/>',
+          text(24, 101, "Magnesium Sleep Gummies", 9.5, "hp-b", ink, weight="650"),
+          text(24, 109.5, "Bioavailable chelates · Montmorency tart cherry", 4.3, "hp-b", soft),
+          text(24, 124, "TRACEABLE", 3.8, "hp-bb", GREEN_O, ls="0.8")]
+    rows = [(f"{mg} mg", f"magnesium {name.lower()}", "[approved supplier, city]") for name, mg in DATA["mg_forms"]]
+    for n, (a_, b_, c_) in enumerate(rows):
+        y = 133 + n * 8
+        o += [text(24, y, a_, 4.3, "hp-m", ink),
+              text(48, y, b_, 4.3, "hp-b", ink),
+              text(W - 24, y, c_, 4.2, "hp-b", soft, "end"),
+              f'<line x1="24" y1="{y + 2.6}" x2="{W - 24}" y2="{y + 2.6}" stroke="{ink}" stroke-width="0.12"/>']
+    o += [text(24, 172, "30", 17, "hp-b", ink, weight="700"),
+          text(42, 172, "NIGHTS", 6.5, "hp-bb", ink, ls="0.3"),
+          text(24, 181, "60 gummies · 2 a night · 250 mg per serve", 4.3, "hp-b", soft),
+          text(24, 196, "0g added sugar", 4.6, "hp-bb", ink),
+          text(24, 204, "Melatonin-free · Vegan pectin · Individually wrapped", 4.3, "hp-b", soft)]
+    qx, qy = W - 24 - 26, 160
+    o += [fake_qr(qx, qy, 26, P + "-coa", seed=17),
+          text(qx + 13, qy + 32, "SCAN: THIS BATCH'S", 3.4, "hp-bb", ink, "middle", ls="0.2"),
+          text(qx + 13, qy + 36.8, "LAB REPORT", 3.4, "hp-bb", ink, "middle", ls="0.2")]
+    o.append(veg_mark(W - 14 - 12.6, 222, 12.6))
+    o += net_line(H - BOTTOM_SAFE - 1.2, LABEL, LABEL)
+    return o
+
+
 FRONTS = {"d1": front_d1, "d5": front_d5, "d6": front_d6, "d10": front_d10}
 FRONTS.update({d: front_cw for d in THEMES if d.startswith("cw-")})
 FRONTS.update({k: globals()["front_" + k] for k in P_INFO})
 FRONTS.update({k: front_ag1 for k in AG1_INFO})
+FRONTS.update({k: front_us for k in US_INFO})
 
 
 def build_front(d):
@@ -1293,6 +1352,10 @@ def main():
         for k, (n, g_, i_, a_, why) in AG1_INFO.items():
             c = _contrast(g_, a_)
             ag.append(f'<figure class="logo-tile">{inline(arts[k][0])}<figcaption><b>{n}</b> · {g_} / {i_} / O {a_}<br>{why}<br>O contrast {c:.1f}:1</figcaption></figure>')
+        us = []
+        for k, (n, g_, why) in US_INFO.items():
+            us.append(f'<figure class="logo-tile">{inline(arts[k][0])}<figcaption><b>{n}</b> · {g_}<br>{why}</figcaption></figure>')
+        page = page.replace("<!--@US_GALLERY-->", "".join(us))
         page = page.replace("<!--@AG1_GALLERY-->", "".join(ag))
         ins = []
         for d in ("ag1-midnight", "ag1-original", "ag1-forest"):
