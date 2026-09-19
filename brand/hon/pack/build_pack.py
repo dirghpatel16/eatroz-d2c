@@ -104,7 +104,7 @@ PAL = {
     "guide": "#FF00B4",    # dieline layer only
 }
 
-FONT_IMPORT = "@import url('https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,100..900&family=DM+Mono:wght@400;500&family=Caveat:wght@700&display=swap');"
+FONT_IMPORT = "@import url('https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,100..900&family=DM+Mono:wght@400;500&family=Caveat:wght@700&family=Instrument+Serif:ital@0;1&display=swap');"
 
 
 # ---------------------------------------------------------------- helpers
@@ -205,6 +205,8 @@ def svg_open(w, h, title, prefix):
             ".hp-bb{font-family:'Archivo','Arial Narrow','Arial',sans-serif;font-weight:800;font-stretch:87.5%}\n"
             ".hp-m{font-family:'DM Mono','Courier New',monospace;font-weight:500}\n"
             ".hp-hand{font-family:'Caveat','Marker Felt',cursive;font-weight:700}\n"
+            ".hp-s{font-family:'Instrument Serif','Times New Roman',serif;font-weight:400}\n"
+            ".hp-si{font-family:'Instrument Serif','Times New Roman',serif;font-style:italic}\n"
             "]]></style>\n")
 
 
@@ -914,42 +916,37 @@ def _donut(cx, cy, r_out, r_in, parts, colours, stroke=None):
 
 
 def front_ag1(t, P):
-    """AG1-style front, built on their researched structure: brand → foundational line → a diagram that
-    teaches → numbers strip → quality marks. Layout, colours and words are HON's own."""
+    """AG1 Next Gen structure, observed from their own pack shot: oversized logotype top-left, a small
+    right-aligned line under it, a three-line serif stack, one round news badge, a quiet bottom block
+    and two trust badges. Colours, words and mark are HON's."""
     W, H = DATA["pouch_mm"]
     g, i, a = t["flood"], t["on"], t["o"]
-    mid = _blend(i, g, 0.45)
-    soft = _blend(i, g, 0.72)
-    lg, lw = logo2(0, 0, 58, i, a, P)
-    o = [f'<rect width="{W}" height="{H}" fill="{g}"/>', veg_mark(W - 8 - 1.2 - 12.6, 37.6, 12.6),
-         text(W / 2, 52, "HIGH ON NUTRITION", 4.3, "hp-bb", i, "middle", ls="1.4", extra=' fill-opacity="0.75"'),
-         f'<g transform="translate({(W - lw) / 2:.2f} 62)">{lg}</g>',
-         text(W / 2, 136, DATA["category"] + " · ADULT 18+", 4.6, "hp-bb", i, "middle", ls="0.8"),
-         text(W / 2, 154, "Magnesium Sleep Gummies", 10, "hp-b", i, "middle", weight="650"),
-         text(W / 2, 163, "Foundational magnesium for sleep and recovery", 4.6, "hp-b", i, "middle")]
-    # the diagram: 250 mg split by chelate, drawn to scale
-    cx, cy = 48, 186
-    o += _donut(cx, cy, 15, 8.4, [(n, v) for n, v in DATA["mg_forms"]], (i, mid, soft))
-    o += [text(cx, cy + 1.2, "250", 6, "hp-b", i, "middle", weight="700"),
-          text(cx, cy + 5.6, "mg", 3.4, "hp-bb", i, "middle")]
-    lx = 74
-    for n, ((name, mg), col) in enumerate(zip(DATA["mg_forms"], (i, mid, soft))):
-        ly = cy - 9 + n * 9
-        o.append(f'<rect x="{lx}" y="{ly - 3.2}" width="4.4" height="4.4" rx="1" fill="{col}"/>')
-        o.append(text(lx + 7, ly, f"{mg} mg", 4.4, "hp-bb", i))
-        o.append(text(lx + 27, ly, f"magnesium {name.lower()}", 4.4, "hp-b", i))
-    o.append(f'<line x1="14" y1="204" x2="{W - 14}" y2="204" stroke="{i}" stroke-width="0.35"/>')
-    cols = [("250mg", "MAGNESIUM PER SERVE"), ("0g", "ADDED SUGAR"), ("60", "GUMMIES · 30 NIGHTS")]
-    cw = (W - 28) / 3
-    for n, (num, lab) in enumerate(cols):
-        ccx = 14 + cw * n + cw / 2
-        o.append(text(ccx, 220, num, 12.5, "hp-b", i, "middle", weight="700"))
-        o.append(text(ccx, 227.5, lab, 4.2, "hp-bb", i, "middle", ls="0.3"))
-        if n:
-            o.append(f'<line x1="{14 + cw * n:.2f}" y1="209" x2="{14 + cw * n:.2f}" y2="231" stroke="{i}" stroke-width="0.35"/>')
-    o.append(f'<line x1="14" y1="231" x2="{W - 14}" y2="231" stroke="{i}" stroke-width="0.35"/>')
-    o.append(text(W / 2, 234.8, "THIRD-PARTY LAB TESTED · FSSAI LICENSED · VEGAN · GELATIN-FREE", 4.2, "hp-bb", i, "middle", ls="0.2"))
-    o += net_line(H - BOTTOM_SAFE - 1.2, i, i)
+    M = 16
+    lg, lw = logo2(M, 62, 62, i, a, P)
+    o = [f'<rect width="{W}" height="{H}" fill="{g}"/>', veg_mark(W - M - 12.6, 38, 12.6), lg,
+         text(M + lw, 137, DATA["category"] + " · ADULT 18+", 4.3, "hp-si", i, "end", ls="0.3"),
+         text(M, 164, "Daily", 13, "hp-s", i),
+         text(M, 178, "Magnesium", 13, "hp-s", i),
+         text(M, 192, "for Sleep", 13, "hp-s", i)]
+    # round news badge, like AG1's "NOW WITH…" flash
+    bx, by = W - M - 24, 176
+    o.append(f'<circle cx="{bx}" cy="{by}" r="24" fill="{a}"/>')
+    badge_ink = i if _contrast(a, i) > 3 else ("#FFFFFF" if _lum(a) < 0.4 else "#111111")
+    for n, line in enumerate(("250 mg", "MAGNESIUM", "PER 2 GUMMIES")):
+        o.append(text(bx, by - 4 + n * 5.2, line, 4.2 if n == 0 else 3.2, "hp-bb", badge_ink, "middle", ls="0.2"))
+    # quiet bottom block
+    o += [text(M, 225, "30-NIGHT SUPPLY", 4.2, "hp-bb", i, ls="0.3"),
+          text(M, 233.5, "NET QTY 360 g (60 N × 6 g)", 5.6, "hp-bb", i),
+          text(M, 241.5, "MAGNESIUM SLEEP GUMMIES · TART CHERRY", 4.2, "hp-bb", i, ls="0.3")]
+    # trust badges: COA tile + lab-tested roundel
+    tx, ty = W - M - 46, 214
+    o.append(f'<rect x="{tx}" y="{ty}" width="21" height="27" rx="2" fill="#FFFFFF"/>')
+    o.append(fake_qr(tx + 2.4, ty + 2.4, 16.2, P + "-coa", seed=11))
+    o.append(text(tx + 10.5, ty + 24.6, "SCAN · COA", 2.8, "hp-bb", "#1D0810", "middle", ls="0.2"))
+    cx2 = W - M - 12
+    o.append(f'<circle cx="{cx2}" cy="{ty + 13.5}" r="13.5" fill="none" stroke="{i}" stroke-width="0.8"/>')
+    o.append(text(cx2, ty + 11, "LAB", 4.2, "hp-bb", i, "middle", ls="0.2"))
+    o.append(text(cx2, ty + 16.5, "TESTED", 3.2, "hp-bb", i, "middle", ls="0.2"))
     return o
 
 

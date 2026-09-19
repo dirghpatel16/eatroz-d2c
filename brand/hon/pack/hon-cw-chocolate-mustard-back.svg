@@ -1,13 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" id="hon-cw-chocolate-mustard-back" viewBox="0 0 215 255" width="215mm" height="255mm" role="img" aria-label="HON Magnesium Sleep Gummies (Chocolate + Mustard): pouch back, 215 x 255 mm">
 <title>HON Magnesium Sleep Gummies (Chocolate + Mustard): pouch back, 215 x 255 mm</title>
-<style><![CDATA[@import url('https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,100..900&family=DM+Mono:wght@400;500&family=Caveat:wght@700&display=swap');
+<style><![CDATA[@import url('https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,100..900&family=DM+Mono:wght@400;500&family=Caveat:wght@700&family=Instrument+Serif:ital@0;1&display=swap');
 .hp-d{font-family:'Archivo','Arial Black',sans-serif;font-weight:900;font-stretch:125%}
 .hp-h{font-family:'Archivo','Arial',sans-serif;font-weight:800;font-stretch:112%}
 .hp-b{font-family:'Archivo','Arial Narrow','Arial',sans-serif;font-weight:500;font-stretch:87.5%}
 .hp-bb{font-family:'Archivo','Arial Narrow','Arial',sans-serif;font-weight:800;font-stretch:87.5%}
 .hp-m{font-family:'DM Mono','Courier New',monospace;font-weight:500}
 .hp-hand{font-family:'Caveat','Marker Felt',cursive;font-weight:700}
+.hp-s{font-family:'Instrument Serif','Times New Roman',serif;font-weight:400}
+.hp-si{font-family:'Instrument Serif','Times New Roman',serif;font-style:italic}
 ]]></style>
 
 <rect id="hon-cw-chocolate-mustard-back-flood" width="215" height="255" fill="#513223"/>
