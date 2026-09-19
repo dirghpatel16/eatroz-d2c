@@ -35,3 +35,7 @@ venv/
 .vscode/
 *.swp
 *.swo
+
+# ruflo/agent scratch
+ruvector.db
+__pycache__/

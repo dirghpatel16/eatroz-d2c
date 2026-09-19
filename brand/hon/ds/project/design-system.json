@@ -1,0 +1,184 @@
+{
+  "v": 3,
+  "layout": "files",
+  "createdOnFiles": {
+    "v": 1,
+    "at": "2026-09-19T18:45:00Z"
+  },
+  "title": "HON",
+  "namespace": "HON",
+  "libraries": [],
+  "sections": {},
+  "groups": [
+    "Logos",
+    "Mockups"
+  ],
+  "assetGroups": {
+    "Logos": {
+      "name": "Logos",
+      "tile": "m",
+      "order": [
+        "hon-wordmark-paper-chocolate.svg",
+        "hon-wordmark-mustard-chocolate.svg",
+        "hon-wordmark-chocolate-mustard.svg",
+        "hon-wordmark-cherry-butter.svg",
+        "hon-wordmark-indigo-marigold.svg",
+        "hon-wordmark-lilac-plum.svg",
+        "hon-wordmark-cream-cherry.svg",
+        "hon-wordmark-black-cream.svg",
+        "hon-wordmark-haldi-chocolate.svg",
+        "hon-wordmark-jeera-cream.svg",
+        "hon-wordmark-tomato-cream.svg",
+        "hon-wordmark-sage-forest.svg",
+        "hon-wordmark-letters-chocolate.svg",
+        "hon-wordmark-letters-white.svg",
+        "hon-wordmark-letters-black.svg"
+      ],
+      "files": {
+        "hon-wordmark-paper-chocolate.svg": {
+          "name": "hon-wordmark-paper-chocolate.svg",
+          "blob": "c83a16166734761d33b8092a33def0ce",
+          "size": 1658,
+          "type": "image/svg+xml"
+        },
+        "hon-wordmark-mustard-chocolate.svg": {
+          "name": "hon-wordmark-mustard-chocolate.svg",
+          "blob": "694931a5c9f6f95aee99f6fe12e5787a",
+          "size": 1662,
+          "type": "image/svg+xml"
+        },
+        "hon-wordmark-chocolate-mustard.svg": {
+          "name": "hon-wordmark-chocolate-mustard.svg",
+          "blob": "f9d997a6804cd6f91b20a56da2077cb9",
+          "size": 1662,
+          "type": "image/svg+xml"
+        },
+        "hon-wordmark-cherry-butter.svg": {
+          "name": "hon-wordmark-cherry-butter.svg",
+          "blob": "63e58f29573d14835a34945c5b05f433",
+          "size": 1666,
+          "type": "image/svg+xml"
+        },
+        "hon-wordmark-indigo-marigold.svg": {
+          "name": "hon-wordmark-indigo-marigold.svg",
+          "blob": "66e7e49cdc89ca57ef57071937da3605",
+          "size": 1676,
+          "type": "image/svg+xml"
+        },
+        "hon-wordmark-lilac-plum.svg": {
+          "name": "hon-wordmark-lilac-plum.svg",
+          "blob": "f1c45ff0fd3428c6b4c1729c04fa14d1",
+          "size": 1648,
+          "type": "image/svg+xml"
+        },
+        "hon-wordmark-cream-cherry.svg": {
+          "name": "hon-wordmark-cream-cherry.svg",
+          "blob": "5963af0fdaf671b2023a8e5311d30af5",
+          "size": 1652,
+          "type": "image/svg+xml"
+        },
+        "hon-wordmark-black-cream.svg": {
+          "name": "hon-wordmark-black-cream.svg",
+          "blob": "39bab4049b3c5151837a8a6e7277659f",
+          "size": 1650,
+          "type": "image/svg+xml"
+        },
+        "hon-wordmark-haldi-chocolate.svg": {
+          "name": "hon-wordmark-haldi-chocolate.svg",
+          "blob": "e5c379a707a93fb31d94b0ee51e80e0a",
+          "size": 1658,
+          "type": "image/svg+xml"
+        },
+        "hon-wordmark-jeera-cream.svg": {
+          "name": "hon-wordmark-jeera-cream.svg",
+          "blob": "dd68c689175588dbc89b8b4ef170aeca",
+          "size": 1662,
+          "type": "image/svg+xml"
+        },
+        "hon-wordmark-tomato-cream.svg": {
+          "name": "hon-wordmark-tomato-cream.svg",
+          "blob": "e065b9edaef7fe81d7244cc4bf193627",
+          "size": 1652,
+          "type": "image/svg+xml"
+        },
+        "hon-wordmark-sage-forest.svg": {
+          "name": "hon-wordmark-sage-forest.svg",
+          "blob": "c4045166ad652392a6205de8bad513a8",
+          "size": 1650,
+          "type": "image/svg+xml"
+        },
+        "hon-wordmark-letters-chocolate.svg": {
+          "name": "hon-wordmark-letters-chocolate.svg",
+          "blob": "79a2d774873fbb8be573ff00c10dbe73",
+          "size": 1581,
+          "type": "image/svg+xml"
+        },
+        "hon-wordmark-letters-white.svg": {
+          "name": "hon-wordmark-letters-white.svg",
+          "blob": "57996cb0cba1611cf8e5f1e1dd81f2ff",
+          "size": 1573,
+          "type": "image/svg+xml"
+        },
+        "hon-wordmark-letters-black.svg": {
+          "name": "hon-wordmark-letters-black.svg",
+          "blob": "2c017d352b2533bcac88ceb0ebfa1bf1",
+          "size": 1573,
+          "type": "image/svg+xml"
+        }
+      }
+    },
+    "Mockups": {
+      "name": "Mockups",
+      "tile": "l",
+      "order": [
+        "hon-pouch-front.svg",
+        "hon-instagram-post.svg",
+        "hon-gummy-wrapper.svg",
+        "hon-30-night-card.svg",
+        "hon-shipper-box.svg"
+      ],
+      "files": {
+        "hon-pouch-front.svg": {
+          "name": "hon-pouch-front.svg",
+          "blob": "8632254ff0efd73eff70c15dfddd64da",
+          "size": 213193,
+          "type": "image/svg+xml"
+        },
+        "hon-instagram-post.svg": {
+          "name": "hon-instagram-post.svg",
+          "blob": "1633cdfd106f9d0b154c0a5bf263bb79",
+          "size": 80946,
+          "type": "image/svg+xml"
+        },
+        "hon-gummy-wrapper.svg": {
+          "name": "hon-gummy-wrapper.svg",
+          "blob": "f653d0b331ce5330d541c57ac4cbcfd8",
+          "size": 13918,
+          "type": "image/svg+xml"
+        },
+        "hon-30-night-card.svg": {
+          "name": "hon-30-night-card.svg",
+          "blob": "602e70a8da62003bac678e3f9fb609fd",
+          "size": 100134,
+          "type": "image/svg+xml"
+        },
+        "hon-shipper-box.svg": {
+          "name": "hon-shipper-box.svg",
+          "blob": "d3f223947861246f29354994705cb163",
+          "size": 19072,
+          "type": "image/svg+xml"
+        }
+      }
+    }
+  },
+  "blobs": {},
+  "docs": {
+    "sections": []
+  },
+  "lastChange": {
+    "by": "Dirgh Patel",
+    "at": "2026-09-19T19:40:00Z",
+    "via": "Claude Code",
+    "note": "Logo is now the Bagel Fat One HON wordmark in 12 colourways; palette, brand book and mockups updated"
+  }
+}
