@@ -863,6 +863,15 @@ def logo2(x, y, h, ink, accent, prefix="l2"):
     return svg, (bx1 - bx0) * k
 
 
+def omark(x, y, h, fill, prefix="om"):
+    """Just the O and its base from logo v2: the wrapper / stamp mark. Returns (svg, width)."""
+    bx0, by0, bx1, by1 = _L2.get("o_bbox", _L2["bbox"])
+    k = h / (by1 - by0)
+    svg = (f'<g id="{prefix}-omark" transform="translate({x - bx0 * k:.2f} {y - by0 * k:.2f}) scale({k:.5f})">'
+           f'<path d="{_L2["o"]}" fill="{fill}" fill-rule="evenodd"/></g>')
+    return svg, (bx1 - bx0) * k
+
+
 def _contrast(a, b):
     la, lb = sorted((_lum(a), _lum(b)), reverse=True)
     return (la + 0.05) / (lb + 0.05)
@@ -887,29 +896,109 @@ for _k, (_n, _g, _i, _a, _why) in AG1_INFO.items():
     THEMES[_k] = _t
 
 
+def _donut(cx, cy, r_out, r_in, parts, colours, stroke=None):
+    """Proportional donut (AG1's encyclopedic, diagram-led register)."""
+    import math
+    total = sum(v for _, v in parts)
+    out, a0 = [], -90.0
+    for (name, v), col in zip(parts, colours):
+        a1 = a0 + 360.0 * v / total
+        big = 1 if a1 - a0 > 180 else 0
+        p = lambda a, r: (cx + r * math.cos(math.radians(a)), cy + r * math.sin(math.radians(a)))
+        x1, y1 = p(a0, r_out); x2, y2 = p(a1, r_out); x3, y3 = p(a1, r_in); x4, y4 = p(a0, r_in)
+        out.append(f'<path d="M{x1:.2f},{y1:.2f} A{r_out},{r_out} 0 {big} 1 {x2:.2f},{y2:.2f} L{x3:.2f},{y3:.2f} '
+                   f'A{r_in},{r_in} 0 {big} 0 {x4:.2f},{y4:.2f} Z" fill="{col}"'
+                   + (f' stroke="{stroke}" stroke-width="0.4"' if stroke else "") + "/>")
+        a0 = a1
+    return out
+
+
 def front_ag1(t, P):
-    """AG1-style front: flood, oversized logo, one product line, a three-number spec strip."""
+    """AG1-style front, built on their researched structure: brand → foundational line → a diagram that
+    teaches → numbers strip → quality marks. Layout, colours and words are HON's own."""
     W, H = DATA["pouch_mm"]
     g, i, a = t["flood"], t["on"], t["o"]
-    lg, lw = logo2(0, 0, 70, i, a, P)
+    mid = _blend(i, g, 0.45)
+    soft = _blend(i, g, 0.72)
+    lg, lw = logo2(0, 0, 58, i, a, P)
     o = [f'<rect width="{W}" height="{H}" fill="{g}"/>', veg_mark(W - 8 - 1.2 - 12.6, 37.6, 12.6),
-         text(W / 2, 54, "HIGH ON NUTRITION", 4.3, "hp-bb", i, "middle", ls="1.4", extra=' fill-opacity="0.75"'),
-         f'<g transform="translate({(W - lw) / 2:.2f} 66)">{lg}</g>',
-         text(W / 2, 152, DATA["category"] + " · ADULT 18+", 4.6, "hp-bb", i, "middle", ls="0.8"),
-         text(W / 2, 172, "Magnesium Sleep Gummies", 10, "hp-b", i, "middle", weight="650"),
-         text(W / 2, 181, "Bioavailable magnesium with Montmorency tart cherry", 4.6, "hp-b", i, "middle"),
-         f'<line x1="14" y1="194" x2="{W - 14}" y2="194" stroke="{i}" stroke-width="0.35"/>']
+         text(W / 2, 52, "HIGH ON NUTRITION", 4.3, "hp-bb", i, "middle", ls="1.4", extra=' fill-opacity="0.75"'),
+         f'<g transform="translate({(W - lw) / 2:.2f} 62)">{lg}</g>',
+         text(W / 2, 136, DATA["category"] + " · ADULT 18+", 4.6, "hp-bb", i, "middle", ls="0.8"),
+         text(W / 2, 154, "Magnesium Sleep Gummies", 10, "hp-b", i, "middle", weight="650"),
+         text(W / 2, 163, "Foundational magnesium for sleep and recovery", 4.6, "hp-b", i, "middle")]
+    # the diagram: 250 mg split by chelate, drawn to scale
+    cx, cy = 48, 186
+    o += _donut(cx, cy, 15, 8.4, [(n, v) for n, v in DATA["mg_forms"]], (i, mid, soft))
+    o += [text(cx, cy + 1.2, "250", 6, "hp-b", i, "middle", weight="700"),
+          text(cx, cy + 5.6, "mg", 3.4, "hp-bb", i, "middle")]
+    lx = 74
+    for n, ((name, mg), col) in enumerate(zip(DATA["mg_forms"], (i, mid, soft))):
+        ly = cy - 9 + n * 9
+        o.append(f'<rect x="{lx}" y="{ly - 3.2}" width="4.4" height="4.4" rx="1" fill="{col}"/>')
+        o.append(text(lx + 7, ly, f"{mg} mg", 4.4, "hp-bb", i))
+        o.append(text(lx + 27, ly, f"magnesium {name.lower()}", 4.4, "hp-b", i))
+    o.append(f'<line x1="14" y1="204" x2="{W - 14}" y2="204" stroke="{i}" stroke-width="0.35"/>')
     cols = [("250mg", "MAGNESIUM PER SERVE"), ("0g", "ADDED SUGAR"), ("60", "GUMMIES · 30 NIGHTS")]
     cw = (W - 28) / 3
     for n, (num, lab) in enumerate(cols):
-        cx = 14 + cw * n + cw / 2
-        o.append(text(cx, 212, num, 13, "hp-b", i, "middle", weight="700"))
-        o.append(text(cx, 221, lab, 4.2, "hp-bb", i, "middle", ls="0.3"))
+        ccx = 14 + cw * n + cw / 2
+        o.append(text(ccx, 220, num, 12.5, "hp-b", i, "middle", weight="700"))
+        o.append(text(ccx, 227.5, lab, 4.2, "hp-bb", i, "middle", ls="0.3"))
         if n:
-            o.append(f'<line x1="{14 + cw * n:.2f}" y1="200" x2="{14 + cw * n:.2f}" y2="226" stroke="{i}" stroke-width="0.35"/>')
-    o.append(f'<line x1="14" y1="230" x2="{W - 14}" y2="230" stroke="{i}" stroke-width="0.35"/>')
+            o.append(f'<line x1="{14 + cw * n:.2f}" y1="209" x2="{14 + cw * n:.2f}" y2="231" stroke="{i}" stroke-width="0.35"/>')
+    o.append(f'<line x1="14" y1="231" x2="{W - 14}" y2="231" stroke="{i}" stroke-width="0.35"/>')
+    o.append(text(W / 2, 234.8, "THIRD-PARTY LAB TESTED · FSSAI LICENSED · VEGAN · GELATIN-FREE", 4.2, "hp-bb", i, "middle", ls="0.2"))
     o += net_line(H - BOTTOM_SAFE - 1.2, i, i)
     return o
+
+
+def inside_view(d, seed=4):
+    """Top-down 'open pouch' view: the wrapped gummies inside, each sachet carrying the O mark."""
+    import math
+    import random as _r
+    t = THEMES[d]
+    g, i, a = t["flood"], t["on"], t["o"]
+    W, H = 900, 1100
+    rnd = _r.Random(seed)
+    inner = _blend(g, "#000000", 0.45)
+    lip = _blend(g, "#FFFFFF", 0.25)
+    o = [f'<rect width="{W}" height="{H}" fill="{_blend(g, "#FFFFFF", 0.86)}"/>',
+         # pouch mouth: outer film, zipper rails, dark interior
+         f'<path d="M110,150 Q450,70 790,150 Q860,560 790,980 Q450,1060 110,980 Q40,560 110,150 Z" fill="{g}"/>',
+         f'<path d="M150,205 Q450,135 750,205 Q812,560 750,925 Q450,995 150,925 Q88,560 150,205 Z" fill="{inner}"/>',
+         f'<path d="M110,150 Q450,70 790,150 L790,178 Q450,98 110,178 Z" fill="{lip}"/>',
+         f'<path d="M118,186 Q450,108 782,186" fill="none" stroke="{lip}" stroke-width="7" stroke-linecap="round"/>',
+         f'<path d="M126,200 Q450,124 774,200" fill="none" stroke="{lip}" stroke-width="4" stroke-linecap="round" stroke-opacity="0.7"/>']
+    # sachets
+    def sachet(x, y, rot, w=156, h=108):
+        crimp, teeth = 16, 7
+        pts = [f"{-w / 2 + crimp:.1f},{-h / 2:.1f}", f"{w / 2 - crimp:.1f},{-h / 2:.1f}"]
+        for k in range(teeth + 1):                      # right crimp, zigzag
+            pts.append(f"{w / 2 - (k % 2) * 6:.1f},{-h / 2 + k * h / teeth:.1f}")
+        pts += [f"{w / 2 - crimp:.1f},{h / 2:.1f}", f"{-w / 2 + crimp:.1f},{h / 2:.1f}"]
+        for k in range(teeth + 1):                      # left crimp
+            pts.append(f"{-w / 2 + (k % 2) * 6:.1f},{h / 2 - k * h / teeth:.1f}")
+        film = _blend(a, "#FFFFFF", 0.12)
+        mk_col = i if _contrast(a, i) > 2.6 else ("#FFFFFF" if _lum(a) < 0.4 else "#111111")
+        mk, mw = omark(0, 0, 46, mk_col, f"{d}-sac{int(x)}{int(y)}")
+        return (f'<g transform="translate({x:.1f} {y:.1f}) rotate({rot:.1f})">'
+                f'<polygon points="{" ".join(pts)}" fill="{a}"/>'
+                f'<rect x="{-w / 2 + crimp}" y="{-h / 2}" width="{w - 2 * crimp}" height="{h}" fill="{film}"/>'
+                f'<path d="M{-w / 2 + crimp},{-h / 2 + 9} H{w / 2 - crimp} M{-w / 2 + crimp},{h / 2 - 9} H{w / 2 - crimp}" '
+                f'stroke="{_blend(a, "#000000", 0.22)}" stroke-width="1.4"/>'
+                f'<g transform="translate({-mw / 2:.1f} -23)">{mk}</g></g>')
+    spots = [(300, 430), (470, 380), (630, 450), (250, 590), (430, 560), (610, 620),
+             (330, 760), (520, 740), (660, 800), (390, 900), (560, 900)]
+    for (x, y) in spots:
+        o.append(sachet(x + rnd.uniform(-14, 14), y + rnd.uniform(-12, 12), rnd.uniform(-38, 38)))
+    o.append(f'<path d="M110,150 Q450,70 790,150 Q860,560 790,980 Q450,1060 110,980 Q40,560 110,150 Z" fill="none" stroke="{_blend(g, "#000000", 0.25)}" stroke-width="3"/>')
+    o.append(text(W / 2, 1060, f"60 wrapped gummies · one gummy, one night", 26, "hp-bb", _blend(g, "#000000", 0.55), "middle", ls="1.2"))
+    return (f'<?xml version="1.0" encoding="UTF-8"?>\n<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {W} {H}" '
+            f'width="{W}" height="{H}" role="img" aria-label="HON {esc(t["name"])}: inside the pouch">'
+            f'<title>HON {esc(t["name"])}: inside the pouch, individually wrapped gummies</title>'
+            + svg_open(W, H, "x", "tmp").split("<style>", 1)[1].split("</style>")[0].join(("<style>", "</style>"))
+            + "".join(o) + "</svg>\n")
 
 
 FRONTS = {"d1": front_d1, "d5": front_d5, "d6": front_d6, "d10": front_d10}
@@ -1179,6 +1268,11 @@ def main():
             (HERE / "flats").mkdir(exist_ok=True)
             (HERE / "flats" / f"hon-{d}-flat.svg").write_text('<?xml version="1.0" encoding="UTF-8"?>\n' + build_flat(d, front, back), encoding="utf-8")
 
+    (HERE / "mockups").mkdir(exist_ok=True)
+    for d in ("ag1-midnight", "ag1-original", "ag1-forest"):
+        (HERE / "mockups" / f"hon-{d}-inside.svg").write_text(inside_view(d), encoding="utf-8")
+    print("mockups: 3 inside views")
+
     src = HERE.parent / "kit" / "kit.src.html"
     if src.exists():
         page = src.read_text(encoding="utf-8")
@@ -1203,6 +1297,12 @@ def main():
             c = _contrast(g_, a_)
             ag.append(f'<figure class="logo-tile">{inline(arts[k][0])}<figcaption><b>{n}</b> · {g_} / {i_} / O {a_}<br>{why}<br>O contrast {c:.1f}:1</figcaption></figure>')
         page = page.replace("<!--@AG1_GALLERY-->", "".join(ag))
+        ins = []
+        for d in ("ag1-midnight", "ag1-original", "ag1-forest"):
+            f = HERE / "mockups" / f"hon-{d}-inside.svg"
+            if f.exists():
+                ins.append(f'<figure class="logo-tile">{f.read_text(encoding="utf-8").split("?>", 1)[1]}<figcaption>{THEMES[d]["name"]} · pack/mockups/hon-{d}-inside.svg</figcaption></figure>')
+        page = page.replace("<!--@INSIDE_GALLERY-->", "".join(ins))
         page = page.replace("<!--@LOGOS-->", "".join(tiles))
         hero, _ = wordmark(0, 12, 60, "var(--wm-ink)", "var(--butter)", "hero")
         page = page.replace("<!--@WORDMARK-->", hero)
